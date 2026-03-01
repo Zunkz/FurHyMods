@@ -26,7 +26,6 @@
   },
   "Icon": "Icons/ItemsGenerated/FurBench.png",
   "Categories": [
-    "FurrestCategory.Main",
     "FurrestCategory.blocks"
   ],
   "BlockType": {

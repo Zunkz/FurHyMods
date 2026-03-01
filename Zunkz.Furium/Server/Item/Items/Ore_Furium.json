@@ -4,9 +4,7 @@
     "Description": ""
   },
   "Categories": [
-    "Blocks.Ores",
-    "FurrestCategory.items",
-    "FurrestCategory.Main"
+    "FurrestCategory.items"
   ],
   "Recipe": {
     "Input": [

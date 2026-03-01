@@ -2,13 +2,13 @@
   "TranslationProperties": {
     "Name": "FurFox Egg"
   },
-  "Quality": "Legendary",
+  "Quality": "Furrest",
   "PlayerAnimationsId": "Item",
   "Model": "Items/Consumables/Food/Egg.blockymodel",
   "Texture": "Items/Consumables/Food/Egg_White_Texture.png",
   "Icon": "Icons/ItemsGenerated/Food_Egg_White.png",
   "Categories": [
-    "FurrestCategory.Main"
+    "FurrestCategory.items"
   ],
   "Interactions": {
     "Secondary": {

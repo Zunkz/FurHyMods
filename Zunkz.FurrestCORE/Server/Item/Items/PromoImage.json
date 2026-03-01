@@ -4,7 +4,7 @@
   },
   "Icon": "Icons/ItemsGenerated/RemoveMe.png",
   "Categories": [
-    "FurrestCategory.Main"
+    "FurrestCategory.Fur_Old"
   ],
   "BlockType": {
     "Material": "Solid",

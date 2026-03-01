@@ -4,9 +4,7 @@
     "Description": "d"
   },
   "Categories": [
-    "Items",
-    "FurrestCategory.items",
-    "FurrestCategory.Main"
+    "FurrestCategory.items"
   ],
   "Model": "Resources/Materials/Ingot.blockymodel",
   "Texture": "Resources/Materials/Ingot_Textures/Furium.png",

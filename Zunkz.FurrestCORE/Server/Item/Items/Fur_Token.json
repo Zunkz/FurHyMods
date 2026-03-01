@@ -3,7 +3,6 @@
     "Name": "Furrest Token"
   },
   "Categories": [
-    "FurrestCategory.Main",
     "FurrestCategory.currency"
   ],
   "BlockType": {

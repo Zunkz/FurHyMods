@@ -4,7 +4,6 @@
     "Description": "furium.items.furbigpickaxe.desc"
   },
   "Categories": [
-    "FurrestCategory.Main",
     "FurrestCategory.tools"
   ],
   "Set": "Tool_Stone",

@@ -25,9 +25,16 @@
     {
       "Id": "currency",
       "Icon": "Icons/ItemCategories/coins.png",
-      "Name": "Currency"
+      "Name": "Currency",
+      "InfoDisplayMode": "Tooltip"
+    },
+    {
+      "Id": "Fur_Old",
+      "Name": "Old Items",
+      "Icon": "Icons/ItemCategories/Misc.png",
+      "InfoDisplayMode": "Tooltip"
     }
   ],
   "Id": "Furrest",
-  "Name": "The Furrest"
+  "Name": "Furrest Items"
 }

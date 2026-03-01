@@ -4,7 +4,6 @@
     "Description": "furrest.items.furcoin_bronze.desc"
   },
   "Categories": [
-    "FurrestCategory.Main",
     "FurrestCategory.currency"
   ],
   "BlockType": {

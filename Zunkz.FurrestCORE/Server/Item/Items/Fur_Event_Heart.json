@@ -4,7 +4,6 @@
     "Description": "furrest.items.fur_event_heart.desc"
   },
   "Categories": [
-    "FurrestCategory.Main",
     "FurrestCategory.items"
   ],
   "BlockType": {

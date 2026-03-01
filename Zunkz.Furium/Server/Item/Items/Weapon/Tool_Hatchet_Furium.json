@@ -51,7 +51,6 @@
   "Texture": "Resources/Items/Tools/furaxe.png",
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "Categories": [
-    "FurrestCategory.Main",
     "FurrestCategory.tools",
     "Items.Tools"
   ],

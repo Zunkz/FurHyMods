@@ -4,8 +4,7 @@
     "Description": "furium.items.furbigpickaxe.desc"
   },
   "Categories": [
-    "FurrestCategory.Main",
-    "FurrestCategory.tools"
+    "FurrestCategory.Fur_Old"
   ],
   "Set": "Tool_Stone",
   "Icon": "Icons/ItemsGenerated/FurBigPIckaxe.png",

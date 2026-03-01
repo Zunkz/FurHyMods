@@ -5,8 +5,6 @@
   "ItemLevel": 10,
   "Icon": "Icons/ItemsGenerated/Soil_Grass_Full_Half.png",
   "Categories": [
-    "Blocks.Soils",
-    "FurrestCategory.Main",
     "FurrestCategory.blocks"
   ],
   "Set": "Soil_Half",

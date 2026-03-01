@@ -1,11 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "furrest.blocks.rock_ice_wet.name",
-    "Description": "furrest.blocks.rock_ice_wet.desc"
+    "Name": "Spawn Music Block"
   },
   "Icon": "Icons/ItemsGenerated/Rock_Ice_Wet.png",
   "Categories": [
-    "FurrestCategory.Main",
     "FurrestCategory.blocks"
   ],
   "PlayerAnimationsId": "Block",
@@ -14,44 +12,19 @@
     "DrawType": "Cube",
     "Group": "Ice",
     "Flags": {},
-    "BlockParticleSetId": "Ice",
     "Textures": [
       {
         "All": "Resources/Blocks/Wet_Ice/Rock_Ice_Wet.png",
         "Weight": 1
       }
     ],
-    "BlockSoundSetId": "Ice",
-    "MovementSettings": {
-      "HorizontalSpeedMultiplier": 1,
-      "Drag": 0.999,
-      "Friction": 0.01,
-      "JumpForceMultiplier": 1
-    },
-    "TransitionTexture": "Resources/Blocks/Wet_Ice/Transition_Rock_Ice_Wet.png",
-    "TransitionToGroups": [
-      "Stone",
-      "Grass",
-      "Sand",
-      "Dirt",
-      "Ice",
-      "Gravel"
-    ],
-    "ParticleColor": "#3AA7D2",
-    "TransitionToTag": "Fluid=Water",
-    "CubeShadingMode": "Standard",
+    "CubeShadingMode": "Flat",
     "Opacity": "Solid",
     "RequiresAlphaBlending": false,
-    "Light": {
-      "Color": "#015",
-      "Radius": 0
-    },
-    "Gathering": {
-      "Breaking": {
-        "GatherType": "Rocks"
-      }
-    },
-    "AmbientSoundEventId": "Music_Spawn_Event"
+    "AmbientSoundEventId": "Music_Spawn_Event",
+    "Tint": [
+      "#00ff3c"
+    ]
   },
   "ResourceTypes": [
     {
@@ -93,5 +66,5 @@
     ],
     "OutputQuantity": 1
   },
-  "Quality": "Furrest"
+  "Quality": "Furrest_Dev"
 }

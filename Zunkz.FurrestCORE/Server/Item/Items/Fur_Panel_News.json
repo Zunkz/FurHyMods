@@ -4,7 +4,7 @@
   },
   "Icon": "Icons/ItemsGenerated/NewsText.png",
   "Categories": [
-    "FurrestCategory.Main"
+    "FurrestCategory.blocks"
   ],
   "BlockType": {
     "Material": "Solid",

@@ -5,8 +5,6 @@
   "ItemLevel": 10,
   "Icon": "Icons/ItemsGenerated/Soil_Dirt_Half.png",
   "Categories": [
-    "Blocks.Soils",
-    "FurrestCategory.Main",
     "FurrestCategory.blocks"
   ],
   "Set": "Soil_Half",

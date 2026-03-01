@@ -4,7 +4,7 @@
   },
   "Icon": "Icons/ItemsGenerated/FurrestLogo.png",
   "Categories": [
-    "FurrestCategory.Main"
+    "FurrestCategory.blocks"
   ],
   "BlockType": {
     "Material": "Solid",

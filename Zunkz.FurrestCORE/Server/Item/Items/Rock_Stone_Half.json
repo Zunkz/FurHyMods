@@ -4,7 +4,7 @@
   },
   "Icon": "Icons/ItemsGenerated/Rock_Stone_Half.png",
   "Categories": [
-    "Blocks.Rocks"
+    "FurrestCategory.blocks"
   ],
   "Interactions": {
     "Secondary": {
