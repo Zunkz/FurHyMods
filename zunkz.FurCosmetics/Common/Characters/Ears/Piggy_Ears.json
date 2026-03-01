@@ -1,0 +1,11 @@
+{
+    "Model": "Resources/Characters/Ears/Piggy_Ears/Piggy_Ears.blockymodel",
+    "Texture": "Resources/Characters/Ears/Piggy_Ears/Piggy_Ears.png",
+    "Icon": "Resources/Characters/Ears/Piggy_Ears/Icon/Piggy_Ears.png",
+    "Alternatives": {
+	"Gradient_Set": "Skin"
+    },
+    "SlotOverrides": [
+        "Ears"
+    ]
+}

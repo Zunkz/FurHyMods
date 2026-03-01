@@ -1,0 +1,28 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Halaster Overpants"
+    }
+  },
+  "CosmeticSlot": "Overpants",
+  "Appearance": {
+    "Model": "Cosmetics/Overpants/Dress.blockymodel",
+    "TextureConfig": {
+      "Type": "Static",
+      "Texture": "Characters/Custom/Overpants/tribal_robe_halaster.png"
+    }
+  },
+  "Icon": "Icons/Wardrobe/CosmeticsGenerated/Cosmetic_Halaster_OverPants.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -30
+    ]
+  }
+}

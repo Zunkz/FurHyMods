@@ -1,0 +1,8 @@
+{
+    "Model": "Resources/Characters/Tails/Bird_Tail1/Bird_Tail1.blockymodel",
+    "Texture": "Resources/Characters/Tails/Bird_Tail1/Bird_Tail1_greyscale.png",
+    "Icon": "Resources/Characters/Tails/Bird_Tail1/Icon/Bird_Tail1.png",
+    "Alternatives": {
+	"Gradient_Set": "Hair"
+    }
+}

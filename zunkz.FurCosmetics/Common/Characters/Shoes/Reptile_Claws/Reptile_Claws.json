@@ -1,0 +1,11 @@
+{
+    "Model": "Resources/Cosmetics/Shoes/Reptile_Claws/Reptile_Claws.blockymodel",
+    "Texture": "Resources/Cosmetics/Shoes/Reptile_Claws/Reptile_Claws.png",
+    "Icon": "Resources/Cosmetics/Shoes/Reptile_Claws/Icon/Reptile_Claws.png",
+    "SlotOverrides": [
+        "Shoes"
+    ],
+    "Alternatives": {
+        "Gradient_Set": "Faded_Leather"
+    }
+}

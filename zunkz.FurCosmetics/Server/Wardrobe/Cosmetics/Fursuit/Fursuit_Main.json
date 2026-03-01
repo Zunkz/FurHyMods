@@ -1,0 +1,25 @@
+{
+  "Type": "PlayerModel",
+  "Properties": {
+    "Translation": {
+      "Name": "Animal"
+    },
+    "Icon": "Icons/ModelsGenerated/Fursuit.png"
+  },
+  "CosmeticSlot": "Fursuit_Body",
+  "HiddenCosmeticSlots": [
+    "Ears",
+    "Face",
+    "Mouth",
+    "Underwear"
+  ],
+  "Appearance": {
+    "Model": "Furry",
+    "TextureConfig": {
+      "Type": "Gradient",
+      "GrayscaleTexture": "NPC/Intelligent/Furry/Models/Fur_Greyscale.png",
+      "GradientSet": "Hair"
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Fursuit.png"
+}

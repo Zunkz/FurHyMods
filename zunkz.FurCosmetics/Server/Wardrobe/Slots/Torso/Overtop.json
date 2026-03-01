@@ -1,0 +1,12 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "client.myAvatar.tabs.Overtop"
+    }
+  },
+  "CosmeticType": "Overtops",
+  "Category": "Torso",
+  "Icon": "Icons/Wardrobe/Slots/Overtop.png",
+  "SelectedIcon": "Icons/Wardrobe/Slots/OvertopSelected.png",
+  "Order": 1
+}

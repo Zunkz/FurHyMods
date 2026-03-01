@@ -1,0 +1,12 @@
+{
+    "Model": "Resources/Characters/Ears/Wolf_Ears/Wolf_Ears.blockymodel",
+    "Texture": "Resources/Characters/Ears/Wolf_Ears/Wolf_Ears.png",
+    "Icon": "Resources/Characters/Ears/Wolf_Ears/Icon/Wolf_Ears.png",
+    "SlotOverrides": [
+        "Ears"
+    ],
+    "Alternatives": {
+	"Gradient_Set": "Hair"
+    }
+
+}

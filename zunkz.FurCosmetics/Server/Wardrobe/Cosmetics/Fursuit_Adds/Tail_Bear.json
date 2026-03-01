@@ -1,0 +1,32 @@
+{
+  "Appearance": {
+    "Model": "NPC/Intelligent/Furry/Body_Attachments/Tails/Bear/Attachment_Bear_Tail.blockymodel",
+    "TextureConfig": {
+      "Type": "Gradient",
+      "GrayscaleTexture": "NPC/Intelligent/Furry/Body_Attachments/Tails/Bear/Attachment_Bear_Tail.png",
+      "GradientSet": "Hair"
+    }
+  },
+  "Properties": {
+    "Translation": {
+      "Name": "Bear Tail"
+    }
+  },
+  "CosmeticSlot": "Tails",
+  "Icon": "Icons/Wardrobe/CosmeticsGenerated/Tail_Bear.png",
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      43,
+      -101
+    ]
+  },
+  "HiddenCosmeticSlots": [
+    "Cape"
+  ]
+}

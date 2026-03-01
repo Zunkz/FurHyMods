@@ -1,0 +1,11 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Animal"
+    },
+    "Visibility": "Always"
+  },
+  "Icon": "Icons/Wardrobe/Categories/Fursuit.png",
+  "SelectedIcon": "Icons/Wardrobe/Categories/FursuitSelected.png",
+  "Order": 5
+}

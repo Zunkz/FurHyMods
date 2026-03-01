@@ -1,0 +1,11 @@
+{
+    "Model": "Resources/Characters/Mouths/Piggy_Snout/Piggy_Snout.blockymodel",
+    "Texture": "Resources/Characters/Mouths/Piggy_Snout/Piggy_Snout.png",
+    "Icon": "Resources/Characters/Mouths/Piggy_Snout/Icon/Piggy_Snout.png",
+    "Alternatives": {
+	"Gradient_Set": "Skin"
+    },
+    "SlotOverrides": [
+        "Mouths"
+    ]
+}
