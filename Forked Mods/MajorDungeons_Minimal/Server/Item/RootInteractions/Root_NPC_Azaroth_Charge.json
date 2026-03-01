@@ -1,0 +1,10 @@
+{
+  "Interactions": [
+    "NPC_Azaroth_Charge"
+  ],
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  }
+}

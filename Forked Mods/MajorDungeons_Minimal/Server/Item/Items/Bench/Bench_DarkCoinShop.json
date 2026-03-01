@@ -1,0 +1,83 @@
+{
+  "TranslationProperties": {
+    "Name": "MajorDungeons.items.Bench_DarkCoinShop.name",
+    "Description": "MajorDungeons.items.Bench_DarkCoinShop.description"
+  },
+  "Quality": "Eternal",
+  "Icon": "Icons/ItemsGenerated/DarkCoinShop.png",
+  "Categories": [
+    "MajorDungeonsCategory.Other"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/DarkCoinShop.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/DarkCoinShop_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelAnimation": "Blocks/Benches/Animation/Idle.blockyanim",
+    "Looping": true,
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Wood",
+    "Particles": [
+      {
+        "SystemId": "MagicPortal_DarkCoinShop",
+        "PositionOffset": {
+          "Y": 1.5,
+          "Z": -0.3
+        }
+      }
+    ],
+    "HitboxType": "DarkCoinShop",
+    "VariantRotation": "NESW",
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Alchemy_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Alchemy_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45.0,
+      22.5
+    ],
+    "Translation": [
+      12.9,
+      -27.7
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Portal"
+    ]
+  },
+  "MaxStack": 1,
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

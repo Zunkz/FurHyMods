@@ -1,0 +1,10 @@
+{
+  "Interactions": [
+    "NPC_Azaroth_Sword_Swing_Down"
+  ],
+  "Tags": {
+    "Attack": [
+      "Melee"
+    ]
+  }
+}

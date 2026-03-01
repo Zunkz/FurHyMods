@@ -1,0 +1,20 @@
+{
+  "Type": "Charging",
+  "Effects": {
+    "ItemAnimationId": "DownstrikeCharging"
+  },
+  "AllowIndefiniteHold": false,
+  "Next": {
+    "0": {
+      "Type": "Chaining",
+      "ChainingAllowance": 1.25,
+      "Next": [
+        "Azaroth_Longsword_Swing_Left",
+        "Azaroth_Longsword_Swing_Right"
+      ]
+    },
+    "1.9": "Azaroth_Longsword_Downstrike_Charged"
+  },
+  "MouseSensitivityAdjustmentTarget": 1,
+  "DisplayProgress": true
+}

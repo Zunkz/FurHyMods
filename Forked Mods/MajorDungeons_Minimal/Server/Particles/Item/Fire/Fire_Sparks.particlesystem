@@ -1,0 +1,11 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Fire_Up"
+    },
+    {
+      "SpawnerId": "Fire_Up"
+    }
+  ],
+  "$Comment": "Canditate to stay2"
+}

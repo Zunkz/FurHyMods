@@ -1,0 +1,102 @@
+{
+  "Model": "NPC/Katherina/Models/Model.blockymodel",
+  "Texture": "NPC/Katherina/Models/Texture.png",
+  "EyeHeight": 2,
+  "CrouchOffset": -0.25,
+  "HitBox": {
+    "Max": {
+      "X": 0.4,
+      "Y": 2.5,
+      "Z": 0.2
+    },
+    "Min": {
+      "X": -0.4,
+      "Y": 0,
+      "Z": -0.4
+    }
+  },
+  "DefaultAttachments": [],
+  "Particles": [
+    {
+      "SystemId": "Fire_Blood2",
+      "TargetNodeName": "Belly",
+      "Scale": 1.2
+    },
+    {
+      "SystemId": "Fire_Blood2",
+      "TargetNodeName": "L-Hand",
+      "PositionOffset": {
+        "Y": 0.3
+      },
+      "RotationOffset": {
+        "Pitch": 180
+      }
+    },
+    {
+      "SystemId": "Fire_Blood2",
+      "TargetNodeName": "R-Hand",
+      "PositionOffset": {
+        "Y": 0.3
+      },
+      "RotationOffset": {
+        "Pitch": 180
+      }
+    }
+  ],
+  "Parent": "Player",
+  "AnimationSets": {
+    "Alerted": {
+      "Animations": [
+        {
+          "Animation": "NPC/Construct_Ancient_Dark_Titan/Animations/Default/Alerted.blockyanim",
+          "Looping": false,
+          "Speed": 1.2,
+          "SoundEventId": "SFX_Katherina_Scream"
+        }
+      ]
+    },
+    "Hurt": {
+      "Animations": [
+        {
+          "Animation": "NPC/Devil_Merchant/Animations/Damage/Hurt.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false
+        }
+      ]
+    },
+    "Death": {
+      "Animations": [
+        {
+          "Animation": "NPC/Devil_Merchant/Animations/Damage/Death.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Katherina_Scream"
+        }
+      ]
+    },
+    "Laydown": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Crouch.blockyanim",
+          "Looping": false,
+          "Speed": 0.5,
+          "SoundEventId": "SFX_Katherina_Scream"
+        }
+      ]
+    },
+    "Wake": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Idle.blockyanim",
+          "Looping": false,
+          "Speed": 1.0,
+          "SoundEventId": "SFX_Katherina_Scream"
+        }
+      ]
+    }
+  },
+  "Light": {
+      "Color": "#b7223f",
+      "Radius": 1
+    }
+  }
+}

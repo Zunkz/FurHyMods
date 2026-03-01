@@ -1,0 +1,38 @@
+{
+  "Icon": "Icons/ItemCategories/MajorDungeons.png",
+  "Order": 3,
+  "Children": [
+    {
+      "Id": "Portals",
+      "Name": "MajorDungeons.ui.category.Portals",
+      "Icon": "Icons/ItemCategories/Portal.png"
+    },
+    {
+      "Id": "Weapons",
+      "Name": "MajorDungeons.ui.category.Weapons",
+      "Icon": "Icons/ItemCategories/Items-Weapons.png"
+    },
+    {
+      "Id": "MapDesign",
+      "Name": "MajorDungeons.ui.category.MapDesign",
+      "Icon": "Icons/ItemCategories/Build-Roofs.png"
+    },
+    {
+      "Id": "DevilCards",
+      "Name": "MajorDungeons.ui.category.DevilCards",
+      "Icon": "Icons/ItemCategories/DevilCards.png"
+    },
+    {
+      "Id": "Other",
+      "Name": "MajorDungeons.ui.category.Other",
+      "Icon": "Icons/ItemCategories/Natural-Fire.png"
+    },
+    {
+      "Id": "Technical",
+      "Name": "MajorDungeons.ui.category.Technical",
+      "Icon": "Icons/ItemCategories/Items-Tools.png"
+    }
+  ],
+  "Id": "MajorDungeonsCategory",
+  "Name": "Major Dungeons"
+}

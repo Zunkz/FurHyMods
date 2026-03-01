@@ -1,0 +1,33 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "Particles": [
+      {
+        "SystemId": "Sword_Signature_AoE2",
+        "TargetNodeName": "Hip",
+        "TargetEntityPart": "Entity",
+        "PositionOffset": {
+          "Y": 1.0
+        }
+      },
+      {
+        "SystemId": "Test_Beam_Custom",
+        "Scale": 0.7,
+        "TargetEntityPart": "PrimaryItem",
+        "PositionOffset": {
+          "X": 1.3,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": 180
+        },
+        "TargetNodeName": "Handle"
+      }
+    ],
+    "CameraEffect": "Sword_Spin",
+    "WorldSoundEventId": "SFX_Sword_T2_Signature_Part_1"
+  }
+}
