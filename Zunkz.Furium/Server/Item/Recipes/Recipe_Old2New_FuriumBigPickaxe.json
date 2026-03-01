@@ -1,0 +1,23 @@
+{
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Furnace"
+    }
+  ],
+  "Input": [
+    {
+      "ItemId": "FurBigPickaxe",
+      "Quantity": 1
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Tool_BigPickaxe_Furium"
+    }
+  ],
+  "TimeSeconds": 10,
+  "PrimaryOutput": {
+    "ItemId": "Tool_BigPickaxe_Furium"
+  }
+}

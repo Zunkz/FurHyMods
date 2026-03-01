@@ -19,17 +19,17 @@
     ],
     "BenchRequirement": [
       {
-        "Id": "Builders",
-        "Type": "StructuralCrafting",
+        "Id": "FurBench",
+        "Type": "Crafting",
         "Categories": [
-          "Glass"
+          "FurBench_Blocks"
         ]
       }
     ]
   },
   "BlockType": {
     "Material": "Solid",
-    "DrawType": "Cube",
+    "DrawType": "Model",
     "Group": "Glass",
     "Flags": {},
     "Gathering": {
@@ -40,14 +40,16 @@
     "BlockParticleSetId": "Glass",
     "ParticleColor": "#d4ece7",
     "BlockSoundSetId": "Glass",
-    "Textures": [
+    "Opacity": "Solid",
+    "RequiresAlphaBlending": false,
+    "CustomModel": "Blocks/Mcw_Windows/Glass/Glass.blockymodel",
+    "CustomModelTexture": [
       {
         "Texture": "Blocks/Mcw_Windows/Glass/Clean_Glass.png",
-        "Weight": 1,
-        "All": "Blocks/glass.png"
+        "Weight": 1
       }
     ],
-    "Opacity": "Cutout"
+    "IsDoor": true
   },
   "ResourceTypes": [
     {
@@ -77,5 +79,6 @@
       0,
       -14
     ]
-  }
+  },
+  "Quality": "Furrest"
 }

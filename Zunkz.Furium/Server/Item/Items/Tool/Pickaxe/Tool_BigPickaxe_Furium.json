@@ -180,5 +180,8 @@
       "Scale": 0.5
     }
   ],
-  "Scale": 1.5
+  "Scale": 1.5,
+  "Utility": {
+    "Compatible": true
+  }
 }

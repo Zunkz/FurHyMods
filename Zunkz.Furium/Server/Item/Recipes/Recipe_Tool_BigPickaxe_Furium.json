@@ -1,0 +1,30 @@
+{
+  "BenchRequirement": [
+    {
+      "Id": "FurBench",
+      "Type": "Crafting",
+      "Categories": [
+        "FurBench_Tools"
+      ]
+    }
+  ],
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Furium",
+      "Quantity": 7
+    },
+    {
+      "ItemId": "Ingredient_Leather_Storm",
+      "Quantity": 6
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Tool_BigPickaxe_Furium"
+    }
+  ],
+  "TimeSeconds": 2,
+  "PrimaryOutput": {
+    "ItemId": "Tool_BigPickaxe_Furium"
+  }
+}
