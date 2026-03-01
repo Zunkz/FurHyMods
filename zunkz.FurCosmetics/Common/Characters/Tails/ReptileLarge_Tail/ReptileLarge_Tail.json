@@ -1,8 +1,0 @@
-{
-    "Model": "Resources/Characters/Tails/ReptileLarge_Tail/ReptileLarge_Tail.blockymodel",
-    "Texture": "Resources/Characters/Tails/ReptileLarge_Tail/ReptileLarge_Tail.png",
-    "Icon": "Resources/Characters/Tails/ReptileLarge_Tail/Icon/ReptileLarge_Tail.png",
-    "Alternatives": {
-	"Gradient_Set": "Faded_Leather"
-    }
-}
