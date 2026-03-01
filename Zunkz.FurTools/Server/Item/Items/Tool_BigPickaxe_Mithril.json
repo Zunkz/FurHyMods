@@ -165,5 +165,8 @@
     ]
   },
   "Scale": 1.5,
-  "Quality": "Epic"
+  "Quality": "Epic",
+  "Utility": {
+    "Compatible": true
+  }
 }

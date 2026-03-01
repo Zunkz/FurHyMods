@@ -168,5 +168,8 @@
     ]
   },
   "Scale": 1.5,
-  "Quality": "Legendary"
+  "Quality": "Legendary",
+  "Utility": {
+    "Compatible": true
+  }
 }

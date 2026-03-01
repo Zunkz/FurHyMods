@@ -13,7 +13,7 @@
       "Looping": true
     }
   ],
-  "Volume": -1,
+  "Volume": -10.24,
   "MaxDistance": 30,
   "StartAttenuationDistance": 2,
   "PreventSoundInterruption": false

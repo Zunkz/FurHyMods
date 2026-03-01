@@ -169,5 +169,8 @@
     ]
   },
   "Scale": 1.5,
-  "Quality": "Rare"
+  "Quality": "Rare",
+  "Utility": {
+    "Compatible": true
+  }
 }

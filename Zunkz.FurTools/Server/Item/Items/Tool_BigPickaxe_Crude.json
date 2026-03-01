@@ -167,5 +167,8 @@
     ]
   },
   "Scale": 1.5,
-  "Quality": "Common"
+  "Quality": "Common",
+  "Utility": {
+    "Compatible": true
+  }
 }
