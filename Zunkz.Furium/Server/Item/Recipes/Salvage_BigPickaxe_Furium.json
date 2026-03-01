@@ -1,18 +1,18 @@
 {
   "Input": [
     {
-      "ItemId": "FurHatchet",
+      "ItemId": "Tool_BigPickaxe_Furium",
       "Quantity": 1
     }
   ],
   "PrimaryOutput": {
-    "ItemId": "Tool_FurHatchet_Furium",
-    "Quantity": 1
+    "ItemId": "Ore_Mithril",
+    "Quantity": 2
   },
   "Output": [
     {
-      "ItemId": "Tool_FurHatchet_Furium",
-      "Quantity": 1
+      "ItemId": "Ingredient_Ore_Furium",
+      "Quantity": 2
     }
   ],
   "BenchRequirement": [
@@ -21,5 +21,5 @@
       "Id": "Salvagebench"
     }
   ],
-  "TimeSeconds": 4
+  "TimeSeconds": 5
 }
