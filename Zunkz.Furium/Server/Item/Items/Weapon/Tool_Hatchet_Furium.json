@@ -85,7 +85,7 @@
         "GatherType": "Soils"
       },
       {
-        "Power": 0.99,
+        "Power": 1,
         "GatherType": "Woods"
       },
       {
