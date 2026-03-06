@@ -1,0 +1,12 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "client.myAvatar.tabs.Eyes"
+    }
+  },
+  "CosmeticType": "Eyes",
+  "Category": "Head",
+  "Icon": "Icons/Wardrobe/Slots/Eyes.png",
+  "SelectedIcon": "Icons/Wardrobe/Slots/EyesSelected.png",
+  "Order": 2
+}

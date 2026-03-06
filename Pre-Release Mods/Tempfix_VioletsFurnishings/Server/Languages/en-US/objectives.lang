@@ -1,0 +1,196 @@
+Gameplay_Trailer.title = Hytale Objective
+Gameplay_Trailer.taskSet.0.task.0 = Destroy the Skeletons
+
+CraftObjective.title = Craft objective
+CraftObjective.desc = Test to check it works
+CraftObjective.taskSet.0.task.0 = Craft a Furniture_Crude_Bed
+
+GatherObjective.title = Gather objective
+GatherObjective.desc = Test to check it works
+GatherObjective.taskSet.0.task.0 = Gather Soil_Dirt
+
+KillObjective.title = Kill objective
+KillObjective.desc = Test to check it works
+KillObjective.taskSet.0.task.0 = Kill Trork Warrior
+
+UseBlockObjective.title = UseBlock objective
+UseBlockObjective.desc = Test to check it works
+UseBlockObjective.taskSet.0.task.0 = Set your bed with at least 2 Soil_Dirt
+
+UseEntityObjective.title = UseEntity objective
+UseEntityObjective.desc = Test to check it works
+UseEntityObjective.taskSet.0.task.0 = Say hi to Test_Interaction_Complete_Task
+
+TreasureMapObjective.title = TreasureMap objective
+TreasureMapObjective.desc = Find and open the hidden chest
+TreasureMapObjective.taskSet.0.task.0 = Find and open the hidden chest
+
+TaskSetObjective.title = The Sheep Rekter
+TaskSetObjective.desc = REKT ALL THE SHEEP YOU CAN FIND!
+TaskSetObjective.taskSet.0 = REKT MOAR SHEEP
+TaskSetObjective.taskSet.0.task.0 = Rekt sheep
+TaskSetObjective.taskSet.1 = REKT EVEN MOAR SHEEP
+TaskSetObjective.taskSet.1.task.0 = Rekt sheep
+TaskSetObjective.taskSet.2 = REKT EVEN MOAR SHEEP
+TaskSetObjective.taskSet.2.task.0 = Rekt sheep
+
+Tutorial.title = Tutorial
+Tutorial.taskSet.0.task.0 = Gather some rock or rubble
+Tutorial.taskSet.0.task.1 = Gather some wood
+Tutorial.taskSet.0.task.2 = Gather some fiber
+Tutorial.taskSet.0.task.3 = Craft a Hatchet using "E"
+Tutorial.taskSet.1.task.0 = Collect materials and craft a Stone Pickaxe
+Tutorial.taskSet.2.task.0 = Make a campfire to cook some berries or mushrooms
+Tutorial.taskSet.3.task.0 = Craft a bedroll and use it to set your home
+Tutorial.taskSet.4.task.0 = Collect materials and craft a Workbench
+
+Grasslands_Challenge_Combat_1.title = Combat Challenge 1
+Grasslands_Challenge_Combat_1.taskSet.0.task.0 = Kill the Golem!
+
+Grasslands_Challenge_Parkour_1.title = Parkour Challenge 1
+Grasslands_Challenge_Parkour_1.taskSet.0.task.0 = Find the mineshaft exit!
+
+Grasslands_Magic_Towers.title = Emerald Grove Magic Tower
+Grasslands_Magic_Towers.taskSet.0.task.0 = Kill Skeletons!
+
+Drylands_Magic_Towers.title = Howling Sands Magic Tower
+Drylands_Magic_Towers.taskSet.0.task.0 = Kill Skeletons!
+
+Snowlands_Magic_Towers.title = Borea Magic Tower
+Snowlands_Magic_Towers.taskSet.0.task.0 = Kill Skeletons!
+
+Grasslands_Mineshafts.title = Emerald Grove Mineshafts
+Grasslands_Mineshafts.taskSet.0.task.0 = Kill Goblins!
+
+Drylands_Mineshafts.title = Howling Sands Mineshafts
+Drylands_Mineshafts.taskSet.0.task.0 = Kill Skeletons!
+
+Snowlands_Mineshafts.title = Borea Mineshafts
+Snowlands_Mineshafts.taskSet.0.task.0 = Kill Outlanders!
+
+Grasslands_Trorks.title = Trork Camp
+Grasslands_Trorks.taskSet.0.task.0 = Kill Trorks!
+
+Grasslands_Kweebecs.title = Kweebec Village
+Grasslands_Kweebecs.taskSet.0.task.0 = Greet some Kweebecs
+
+Drylands_Ferans.title = Feran Village
+Drylands_Ferans.taskSet.0.task.0 = Greet some Ferans
+
+Snowlands_Outlanders.title = Outlander Settlement
+Snowlands_Outlanders.taskSet.0.task.0 = Kill Outlanders!
+
+Grasslands_Elemental_Circle_Tier_1.title = Emerald Grove Elemental Circle
+Grasslands_Elemental_Circle_Tier_1.taskSet.0.task.0 = Open the chest
+Grasslands_Elemental_Circle_Tier_1.taskSet.1.task.0 = Defeat the root spirit
+
+Grasslands_Elemental_Circle_Tier_2.title = Emerald Woodland Elemental Circle
+Grasslands_Elemental_Circle_Tier_2.taskSet.0.task.0 = Open the chest
+Grasslands_Elemental_Circle_Tier_2.taskSet.1.task.0 = Defeat the root spirit
+
+Grasslands_Elemental_Circle_Tier_3.title = Emerald Wilds Elemental Circle
+Grasslands_Elemental_Circle_Tier_3.taskSet.0.task.0 = Open the chest
+Grasslands_Elemental_Circle_Tier_3.taskSet.1.task.0 = Defeat the root spirits
+
+Drylands_Elemental_Circle_Tier_1.title = Howling Savannah Elemental Circle
+Drylands_Elemental_Circle_Tier_1.taskSet.0.task.0 = Open the chest
+Drylands_Elemental_Circle_Tier_1.taskSet.1.task.0 = Defeat the air spirit
+
+Drylands_Elemental_Circle_Tier_2.title = Howling Sands Elemental Circle
+Drylands_Elemental_Circle_Tier_2.taskSet.0.task.0 = Open the chest
+Drylands_Elemental_Circle_Tier_2.taskSet.1.task.0 = Defeat the air spirit
+
+Drylands_Elemental_Circle_Tier_3.title = Howling Steppe Elemental Circle
+Drylands_Elemental_Circle_Tier_3.taskSet.0.task.0 = Open the chest
+Drylands_Elemental_Circle_Tier_3.taskSet.1.task.0 = Defeat the air spirits
+
+Snowlands_Elemental_Circle_Tier_1.title = Borean Moor Elemental Circle
+Snowlands_Elemental_Circle_Tier_1.taskSet.0.task.0 = Open the chest
+Snowlands_Elemental_Circle_Tier_1.taskSet.1.task.0 = Defeat the frost spirit
+
+Snowlands_Elemental_Circle_Tier_2.title = Borean Tundra Elemental Circle
+Snowlands_Elemental_Circle_Tier_2.taskSet.0.task.0 = Open the chest
+Snowlands_Elemental_Circle_Tier_2.taskSet.1.task.0 = Defeat the frost spirit
+
+Snowlands_Elemental_Circle_Tier_3.title = Borean Reach Elemental Circle
+Snowlands_Elemental_Circle_Tier_3.taskSet.0.task.0 = Open the chest
+Snowlands_Elemental_Circle_Tier_3.taskSet.1.task.0 = Defeat the frost spirits
+
+
+Grasslands_Encounters.title = Emerald Grove Ruins
+Grasslands_Encounters.taskSet.0.task.0 = Defeat the Skeleton!
+Grasslands_Encounters_Tier_1.title = Emerald Grove Ruins
+Grasslands_Encounters_Tier_1.taskSet.0.task.0 = Defeat the Skeleton!
+Grasslands_Encounters_Tier_2.title = Emerald Grove Ruins
+Grasslands_Encounters_Tier_2.taskSet.0.task.0 = Defeat the Skeletons!
+Grasslands_Encounters_Tier_2.taskSet.0.task.1 = Treasure discovered
+Grasslands_Encounters_Tier_3.title = Emerald Grove Ruins
+Grasslands_Encounters_Tier_3.taskSet.0.task.0 = Defeat the Skeletons!
+Grasslands_Encounters_Tier_3.taskSet.0.task.1 = Treasure discovered
+Grasslands_Encounters_Tier_3_Boss.title = Emerald Grove Ruins
+Grasslands_Encounters_Tier_3_Boss.taskSet.0.task.0 = Defeat the Skeletons!
+Grasslands_Encounters_Tier_3_Boss.taskSet.0.task.1 = Defeat the boss!
+Grasslands_Encounters_Tier_3_Boss.taskSet.0.task.2 = Treasure discovered
+
+Drylands_Encounters.title = Howling Sands Ruins
+Drylands_Encounters.taskSet.0.task.0 = Defeat the Skeleton!
+Drylands_Encounters_Tier_1.title = Howling Sands Ruins
+Drylands_Encounters_Tier_1.taskSet.0.task.0 = Defeat the Skeleton!
+Drylands_Encounters_Tier_2.title = Howling Sands Ruins
+Drylands_Encounters_Tier_2.taskSet.0.task.0 = Defeat the Skeletons!
+Drylands_Encounters_Tier_2.taskSet.0.task.1 = Treasure discovered
+Drylands_Encounters_Tier_3.title = Howling Sands Ruins
+Drylands_Encounters_Tier_3.taskSet.0.task.0 = Defeat the Skeletons!
+Drylands_Encounters_Tier_3.taskSet.0.task.1 = Treasure discovered
+Drylands_Encounters_Tier_3_Boss.title = Howling Sands Ruins
+Drylands_Encounters_Tier_3_Boss.taskSet.0.task.0 = Defeat the Skeletons!
+Drylands_Encounters_Tier_3_Boss.taskSet.0.task.1 = Defeat the boss!
+Drylands_Encounters_Tier_3_Boss.taskSet.0.task.2 = Treasure discovered
+
+Snowlands_Encounters.title = Borea Ruins
+Snowlands_Encounters.taskSet.0.task.0 = Defeat the Skeleton!
+Snowlands_Encounters_Tier_1.title = Borea Ruins
+Snowlands_Encounters_Tier_1.taskSet.0.task.0 = Defeat the Skeleton!
+Snowlands_Encounters_Tier_2.title = Borea Ruins
+Snowlands_Encounters_Tier_2.taskSet.0.task.0 = Defeat the Skeletons!
+Snowlands_Encounters_Tier_2.taskSet.0.task.1 = Treasure discovered
+Snowlands_Encounters_Tier_3.title = Borea Ruins
+Snowlands_Encounters_Tier_3.taskSet.0.task.0 = Defeat the Skeletons!
+Snowlands_Encounters_Tier_3.taskSet.0.task.1 = Treasure discovered
+Snowlands_Encounters_Tier_3_Boss.title = Borea Ruins
+Snowlands_Encounters_Tier_3_Boss.taskSet.0.task.0 = Defeat the Skeletons!
+Snowlands_Encounters_Tier_3_Boss.taskSet.0.task.1 = Defeat the boss!
+Snowlands_Encounters_Tier_3_Boss.taskSet.0.task.2 = Treasure discovered
+
+Firelands_Encounters.title = Devastated Lands Ruins
+Firelands_Encounters.taskSet.0.task.0 = Defeat the Skeletons!
+Firelands_Encounters_Tier_4.title = Devastated Lands Ruins
+Firelands_Encounters_Tier_4.taskSet.0.task.0 = Defeat the Skeletons!
+Firelands_Encounters_Tier_5.title = Devastated Lands Ruins
+Firelands_Encounters_Tier_5.taskSet.0.task.0 = Defeat the Skeletons!
+Firelands_Encounters_Tier_5.taskSet.0.task.1 = Treasure discovered
+Firelands_Encounters_Tier_6.title = Devastated Lands Ruins
+Firelands_Encounters_Tier_6.taskSet.0.task.0 = Defeat the Skeletons!
+Firelands_Encounters_Tier_6.taskSet.0.task.1 = Treasure discovered
+Firelands_Encounters_Tier_6_Boss.title = Devastated Lands Ruins
+Firelands_Encounters_Tier_6_Boss.taskSet.0.task.0 = Defeat the Skeletons!
+Firelands_Encounters_Tier_6_Boss.taskSet.0.task.1 = Defeat the boss!
+Firelands_Encounters_Tier_6_Boss.taskSet.0.task.2 = Treasure discovered
+
+Grasslands_Dungeons.title = Emerald Grove Dungeon
+Grasslands_Dungeons.taskSet.0.task.0 = Kill the Goblins!
+Drylands_Dungeons.title = Howling Sands Dungeon
+Drylands_Dungeons.taskSet.0.task.0 = Kill the Skeletons!
+Snowlands_Dungeons.title = Borea Dungeon
+Snowlands_Dungeons.taskSet.0.task.0 = Kill the Outlanders!
+
+Grasslands_Gaia_Temple.title = Temple Entrance
+Grasslands_Gaia_Temple.taskSet.0.task.0 = Kill the Golem!
+Grasslands_Story_Gate.title = Emerald Grove Temple Entrance
+Grasslands_Story_Gate.taskSet.0.task.0 = Kill the Golems!
+Grasslands_World_Gate.title = Emerald Grove Worldgate
+Grasslands_World_Gate.taskSet.0.task.0 = Kill the Golems!
+
+Drylands_Scarak.title = Scarak Hive
+Drylands_Scarak.taskSet.0.task.0 = Kill the Scaraks!
+Drylands_Scarak.taskSet.0.task.1 = Kill the Broodmother!

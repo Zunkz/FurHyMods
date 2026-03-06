@@ -1,0 +1,12 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "client.myAvatar.tabs.Underwear"
+    }
+  },
+  "CosmeticType": "Underwear",
+  "Category": "General",
+  "Icon": "Icons/Wardrobe/Slots/Underwear.png",
+  "SelectedIcon": "Icons/Wardrobe/Slots/UnderwearSelected.png",
+  "Order": 0
+}

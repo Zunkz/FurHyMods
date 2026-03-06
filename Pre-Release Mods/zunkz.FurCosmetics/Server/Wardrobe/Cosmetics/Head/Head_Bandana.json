@@ -1,0 +1,29 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Bandana"
+    }
+  },
+  "Appearance": {
+    "Model": "Cosmetics/Head/Bandana.blockymodel",
+    "TextureConfig": {
+      "Type": "Gradient",
+      "GradientSet": "Colored_Cotton",
+      "GrayscaleTexture": "Cosmetics/Head/Bandana_Textures/Bandana_Skulls_Greyscale_Texture.png"
+    }
+  },
+  "CosmeticSlot": "HeadAccessory",
+  "Icon": "Icons/Wardrobe/CosmeticsGenerated/Head_Bandana.png",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      3,
+      -110
+    ]
+  }
+}

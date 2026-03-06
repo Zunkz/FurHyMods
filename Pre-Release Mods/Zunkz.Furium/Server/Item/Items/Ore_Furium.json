@@ -1,0 +1,77 @@
+{
+  "TranslationProperties": {
+    "Name": "Furium Ore",
+    "Description": ""
+  },
+  "Categories": [
+    "Blocks.Ores",
+    "FurrestCategory.items",
+    "FurrestCategory.Main"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 3,
+        "ItemId": "Ingredient_Bar_Onyxium"
+      },
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "FurBench",
+        "Categories": [
+          "Epic_Crafting_Materials"
+        ]
+      }
+    ],
+    "TimeSeconds": 4
+  },
+  "Model": "Resources/Ores/Ore_Large.blockymodel",
+  "Texture": "Resources/Ores/Ore_Textures/Furium.png",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.57323,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -3.6,
+      -16.2
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Ore_Furium.png",
+  "Tags": {
+    "Type": [
+      "Ore"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true,
+  "Quality": "Furrest",
+  "Particles": [
+    {
+      "SystemId": "Block_Run_Crystal",
+      "Color": "#8000ff",
+      "PositionOffset": {
+        "Y": 0.2,
+        "Z": -0.2
+      },
+      "TargetEntityPart": "PrimaryItem",
+      "RotationOffset": {
+        "Yaw": 0,
+        "Pitch": 90
+      }
+    }
+  ]
+}

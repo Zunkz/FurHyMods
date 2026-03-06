@@ -1,0 +1,28 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Races_Vanilla_OmbreWavy"
+    }
+  },
+  "CosmeticSlot": "Haircut",
+  "Appearance": {
+    "Model": "Characters/Haircuts/OmbreWavy.blockymodel",
+    "TextureConfig": {
+      "Type": "Static",
+      "Texture": "Characters/Haircuts/OmbreWavy_Greyscale.png"
+    }
+  },
+  "Icon": "Icons/Wardrobe/CosmeticsGenerated/OmbreWavy.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -79
+    ]
+  }
+}

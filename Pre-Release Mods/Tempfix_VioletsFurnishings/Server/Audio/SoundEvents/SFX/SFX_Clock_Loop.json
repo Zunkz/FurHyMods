@@ -1,0 +1,13 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Items/Furniture/Clock_Loop.ogg"
+      ],
+      "Looping": true,
+      "RoundRobinHistorySize": 0
+    }
+  ],
+  "Volume": -8.04,
+  "Parent": "SFX_Chest_Legendary_Loop"
+}

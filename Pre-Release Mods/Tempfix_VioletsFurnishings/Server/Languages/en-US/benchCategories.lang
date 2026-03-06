@@ -1,0 +1,26 @@
+workbench.crafting = Crafting
+workbench.survival = Survival
+workbench.housing = Housing
+workbench.tools = Tools
+furniture.seasonal = Seasonal
+furniture.storage = Storage
+furniture.lighting = Lighting
+furniture.beds = Beds
+furniture.pottery = Pottery
+furniture.textiles = Textiles
+furniture.misc = Misc
+furniture.statues = Statues
+workbench.tinkering = Tinkering
+farmingbench.other = Farming
+farmingbench.seeds = Seeds
+farmingbench.saplings = Saplings
+
+violet.containers = Containers
+violet.beds = Beds
+violet.plushies = Plushies
+violet.lighting = Lighting
+violet.surfaces = Surfaces
+violet.seating = Seating
+violet.decor = Decor
+violet.artwork = Wall Decor
+violet.all = All

@@ -1,0 +1,11 @@
+generic = Press [{key}] to interact
+open = Press [{key}] to open {name}
+gather = Press [{key}] to pick up {name}
+edit = Press [{key}] to edit
+turnon = Press [{key}] to turn on
+turnoff = Press [{key}] to turn off
+sit = Press [{key}] to sit
+
+radio_switch = Press [{key}] to change station
+radio_off = Press [{key}] to turn off radio
+radio_on = Press [{key}] to turn on radio

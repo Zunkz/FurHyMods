@@ -1,0 +1,180 @@
+generic.rotate = Rotate
+generic.count = Count
+
+general.backButton = Back
+
+searchPlaceholder = Search...
+saveChanges = Save Changes
+
+commandListPage.commands = Commands
+commandListPage.usage = Usage
+commandListPage.parameters = Parameters
+commandListPage.variants = Variants
+commandListPage.subcommands = Subcommands
+commandListPage.argumentTypes = Argument Types
+commandListPage.optionsIndicator = --options
+commandListPage.paramType = Type: {type}
+commandListPage.paramTypeDefault = Type: {type} (Default: {default})
+commandListPage.paramTypeFlag = Type: Flag (boolean)
+commandListPage.noDescription = No description
+commandListPage.examples = Examples: '{examples}'
+
+warpListPage.warps = Warps
+warpListPage.noWarps = There are no warps set up
+
+prefabListPage.title = Prefabs
+npcSpawnPage.spawn = Spawn NPC
+
+instanceListPage.title = Instances
+instanceListPage.button.spawn = Spawn
+instanceListPage.button.load = Edit
+
+playSoundPage.play = Play Sound
+
+tintChunkPage.title = Tint Chunk
+tintChunkPage.applyTint = Apply Tint
+tintChunkPage.sigma = Sigma
+tintChunkPage.blur = Blur
+tintChunkPage.radius = Radius
+tintChunkPage.hexColor = Hexadecimal Color
+
+launchPadSettingsPage.title = Launch Pad Settings
+launchPadSettingsPage.velocity = Velocity
+launchPadSettingsPage.playersOnly = Players Only
+
+teleporter.title = Teleporter
+teleporter.error = Error
+teleporter.location = Location
+teleporter.rotation = Rotation
+teleporter.blockRelative = Relative to Block
+teleporter.blockRelative.tooltip = Uses the block position for calculating relative locations
+teleporter.relative = Relative
+teleporter.relative.tooltip = Makes this value relative
+teleporter.world = World
+teleporter.noWorld = No World
+teleporter.targetWarp = Target Warp
+teleporter.noWarp = No Warp
+teleporter.warpName = Warp Name
+teleporter.warpNameRightHereHint = Right here!
+teleporter.errorMissingWarpName = Please enter a warp name!
+teleporter.errorWarpAlreadyExists = Warp name already in use!
+
+portalDevice.title = Ancient Gateway
+portalDevice.nothingHeld = Hold a Fragment Key when interacting with this block to unlock the Ancient Gateway!
+portalDevice.portalInsidePortal = Can't spawn a portal inside a Fragment!
+portalDevice.unknownError = There is a problem with this portal. {state}
+portalDevice.remainingDuration = Remaining duration: {remaining}
+portalDevice.lessThanAMinute = Less than a minute
+portalDevice.remainingMinutes = Around {time} minutes
+portalDevice.durationSeconds = {duration} seconds
+portalDevice.durationMinutes = {duration} minutes
+portalDevice.durationUnlimited = Unlimited!
+portalDevice.playersInsideNone = No one yet!
+portalDevice.playersInside = Players inside: {count}
+portalDevice.beTheFirst = Be the first to explore this Fragment!
+portalDevice.error = Oops!
+portalDevice.needPortalKey = Need a Fragment Key!
+portalDevice.summonPortal = Summon Portal
+portalDevice.joinPortal = Enter Fragment
+portalDevice.portalKey = Fragment Key
+portalDevice.portalTitle = Fragment: {name}
+portalDevice.timeLimit = Time Limit: {limit}
+portalDevice.forsaken = Forsaken
+portalDevice.forsakenExplanation = You died within this Fragment and can't join it again!
+portalDevice.consumesKey = [TMP] Consumes your held shard!
+portalDevice.fragmentSubtitle = [TMP] Fragment of Orbis`
+portalDevice.objectivesTitle = [TMP] Objectives
+portalDevice.tipsTitle = [TMP] Wisdom
+portalDevice.corruptionTitle = [TMP] Void Corruption
+portalDevice.corruptionDescription = [TMP] Found <color is="#a020f0"><b>Cursed</b></color> items are lost on <color is="#9e0b0b"><b>Death</b></color>!
+portalDevice.breachDescription = [TMP] <color is="#b61a82"><b>Void Breach</b></color> starts before fragment closes!
+portalDevice.timeLimitLabel = [TMP] Time Limit
+portalDevice.durationMins = [TMP] {time} mins
+
+prefabSpawnerSettingsPage.title = Prefab Spawner Settings
+prefabSpawnerSettingsPage.prefabPath = Prefab Path
+prefabSpawnerSettingsPage.placementProperties = Placement Properties
+prefabSpawnerSettingsPage.fitHeightmap = Fit Heightmap
+prefabSpawnerSettingsPage.inheritSeed = Inherit Seed
+prefabSpawnerSettingsPage.inheritHeightCondition = Inherit Height Condition
+prefabSpawnerSettingsPage.defaultWeight = Default Weight
+prefabSpawnerSettingsPage.prefabWeights = Prefab Weights
+
+shopPage.title = Shop
+
+respawnPage.title = You Died!
+respawnPage.respawn = Respawn
+
+itemRepairPage.title = Repair Items
+itemRepairPage.noItems = No items need repairing
+itemRepairPage.item = Item
+itemRepairPage.durability = Durability
+
+objectiveAdminPanel.title = Objective Admin Panel
+
+configureInstanceBlockPage.title = Instance Configuration
+configureInstanceBlockPage.noInstances = No instance
+configureInstanceBlockPage.instances = Instance:
+configureInstanceBlockPage.instanceKey = Instance Key:
+configureInstanceBlockPage.positionOffset = Position Offset:
+configureInstanceBlockPage.positionOffset.x = X:
+configureInstanceBlockPage.positionOffset.y = Y:
+configureInstanceBlockPage.positionOffset.z = Z:
+configureInstanceBlockPage.rotation = Rotation:
+configureInstanceBlockPage.rotation.pitch = Pitch:
+configureInstanceBlockPage.rotation.yaw = Yaw:
+configureInstanceBlockPage.rotation.roll = Roll:
+configureInstanceBlockPage.personalReturnPoint = Personal Return Point:
+configureInstanceBlockPage.closeOnBlockRemove = Close On Block Remove:
+configureInstanceBlockPage.removeBlockAfter = Remove Block After (Seconds):
+
+nameRespawnPoint.title = Set Respawn Point
+overrideNearbyRespawnPoint.title = Override Nearby Respawn Point
+overrideNearbyRespawnPoint.label = The following respawn {respawnPointCount, plural, one {point is}, other {points are}} too close (min distance is {minDistance, plural, one {{minDistance, number} block}, other {{minDistance, number} blocks}}) to the current respawn point and will be removed.\n\nDo you want to proceed?
+selectOverrideRespawnPoint.title = Select Respawn Point To Replace
+needToSelectRespawnPoint = You need to select a respawn point!
+needToSetName = You need to set a name for the respawn point!
+respawnPointClaimed = This respawn point has already been claimed!
+respawnPointSet = You have set a new respawn point: {name}
+updatedRespawnPointName = You have updated your respawn point: {name}
+defaultRespawnPointName = {name}'s bed
+respawnPointDistance = {distance} blocks
+respawnName = Respawn Name
+respawnNameTooLong = Respawn name is too long, max length is {maxLength} chars!
+
+confirm = Confirm
+cancel = Cancel
+
+dropdown.noItems = (No items)
+
+prefabEditorSettings.title = Prefab Editor Settings
+prefabEditorSettings.savedConfigs = Saved Configs:
+prefabEditorSettings.rootDir = Root Dir:
+prefabEditorSettings.prefabPaths = Prefab Paths or Folders (Comma Separated):
+prefabEditorSettings.recursiveSearch = Recursively Search for Prefabs:
+prefabEditorSettings.loadChildren = Load Children Prefabs:
+prefabEditorSettings.loadEntities = Spawn Entities and NPCs:
+prefabEditorSettings.desiredYLevel = Desired Y Level to Paste:
+prefabEditorSettings.blocksBetweenPrefabs = Blocks Between Prefabs:
+prefabEditorSettings.worldGenType = WorldGen Type:
+prefabEditorSettings.numAirBeforeGround = (Flat WorldGen Only) Num Air Blocks Below Prefabs:
+prefabEditorSettings.pasteAxis = Axis to Paste On:
+prefabEditorSettings.alignmentMethod = Alignment Method:
+prefabEditorSettings.load = Load
+prefabEditorSettings.saveProperties = Save Properties
+prefabEditorSettings.saveConfig.title = Save Preset Config
+prefabEditorSettings.saveName = Config Name:
+
+pluginListPage.plugins = Plugins & Features
+pluginListPage.descriptiveOnly = Only show descriptive features
+
+serverLogPage.logs = Server Logs
+
+particleSpawnPage.spawn = Spawn Particle
+particleSpawnPage.systemLifespan = System Lifespan
+particleSpawnPage.particleGroupLifespan = Group Lifespan
+
+changeModelPage.title = Change Player Model
+changeModelPage.scale = Scale
+changeModelPage.button.changeModel = Change Model
+changeModelPage.button.resetModel = Reset Model

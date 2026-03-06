@@ -1,0 +1,25 @@
+{
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Furnace"
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Bar_Mithril",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Ingredient_Bar_Mithril",
+      "Quantity": 1
+    }
+  ],
+  "Input": [
+    {
+      "ItemId": "Ore_Mithril",
+      "Quantity": 1
+    }
+  ],
+  "TimeSeconds": 20
+}

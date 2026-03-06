@@ -1,0 +1,28 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Flower Crown"
+    }
+  },
+  "Appearance": {
+    "Model": "Cosmetics/Head/FlowerCrown.blockymodel",
+    "TextureConfig": {
+      "Type": "Static",
+      "Texture": "Cosmetics/Head/FlowerCrown_Textures/White.png"
+    }
+  },
+  "CosmeticSlot": "HeadAccessory",
+  "Icon": "Icons/Wardrobe/CosmeticsGenerated/Head_FlowerCrown.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -102
+    ]
+  }
+}

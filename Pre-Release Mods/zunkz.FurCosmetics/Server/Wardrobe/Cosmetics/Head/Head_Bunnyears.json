@@ -1,0 +1,29 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Bunny Ears"
+    }
+  },
+  "Appearance": {
+    "Model": "Cosmetics/Head/BunnyEars.blockymodel",
+    "TextureConfig": {
+      "Type": "Gradient",
+      "GrayscaleTexture": "Cosmetics/Head/BunnyEars_Textures/Greyscale.png",
+      "GradientSet": "Hair"
+    }
+  },
+  "CosmeticSlot": "Fursuit_Ears",
+  "Icon": "Icons/Wardrobe/CosmeticsGenerated/Head_Bunnyears.png",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -5,
+      -114
+    ]
+  }
+}

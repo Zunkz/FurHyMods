@@ -1,0 +1,28 @@
+{
+  "Input": [
+    {
+      "ResourceTypeId": "Sands",
+      "Quantity": 1
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Potion_Empty",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Potion_Empty",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Id": "Alchemybench",
+      "Type": "Crafting",
+      "Categories": [
+        "Alchemy_Potions"
+      ],
+      "RequiredTierLevel": 1
+    }
+  ]
+}

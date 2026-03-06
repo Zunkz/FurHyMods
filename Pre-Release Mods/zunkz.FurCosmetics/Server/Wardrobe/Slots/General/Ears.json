@@ -1,0 +1,16 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "client.myAvatar.tabs.Ears"
+    }
+  },
+  "CosmeticType": "Ears",
+  "Category": "General",
+  "Icon": "Icons/Wardrobe/Slots/Ears.png",
+  "SelectedIcon": "Icons/Wardrobe/Slots/EarsSelected.png",
+  "Order": 4,
+  "Camera": {
+    "Distance": 1.5,
+    "Yaw": 245
+  }
+}

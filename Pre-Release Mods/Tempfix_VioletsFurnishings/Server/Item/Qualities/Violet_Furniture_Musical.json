@@ -1,0 +1,15 @@
+{
+  "QualityValue": 5,
+  "ItemTooltipTexture": "UI/ItemQualities/Tooltips/ItemTooltipMusical.png",
+  "ItemTooltipArrowTexture": "UI/ItemQualities/Tooltips/ItemTooltipMusicalArrow.png",
+  "SlotTexture": "UI/ItemQualities/Slots/SlotMusical.png",
+  "BlockSlotTexture": "UI/ItemQualities/Slots/SlotMusical.png",
+  "SpecialSlotTexture": "UI/ItemQualities/Slots/SlotMusical.png",
+  "TextColor": "#FF7CED",
+  "LocalizationKey": "general.qualities.Violet_Furniture_Musical",
+  "VisibleQualityLabel": true,
+  "RenderSpecialSlot": true,
+  "ItemEntityConfig": {
+    "ParticleSystemId": "Drop_Legendary"
+  }
+}
