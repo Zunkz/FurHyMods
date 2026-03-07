@@ -6,16 +6,16 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Onyxium",
-        "Quantity": 8
-      },
-      {
         "ItemId": "Ingredient_Bar_Prisma",
-        "Quantity": 12
+        "Quantity": 13
       },
       {
         "ItemId": "Ingredient_Leather_Prismic",
         "Quantity": 8
+      },
+      {
+        "ItemId": "Rock_Gem_Emerald",
+        "Quantity": 6
       }
     ],
     "BenchRequirement": [

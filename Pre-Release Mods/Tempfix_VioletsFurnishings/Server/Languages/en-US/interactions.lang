@@ -1,4 +1,0 @@
-invalidBlockState = Cannot perform {interaction} interaction on unsupported BlockState type {blockState}
-
-teleporter.failedCollectMore = Placement limit reached, collect more Memories to increase the limit!
-teleporter.failed = Placement limit reached

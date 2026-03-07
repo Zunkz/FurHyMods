@@ -8,8 +8,8 @@
   ],
   "Set": "Tool_Stone",
   "Icon": "Icons/ItemsGenerated/Tool_BigPickaxe_Prisma.png",
-  "Model": "Items/Tools/Pickaxe/Iron.blockymodel",
-  "Texture": "Resources/Items/Tools/Prisma_Texture.png",
+  "Model": "Items/Tools/Pickaxe/Prisma.blockymodel",
+  "Texture": "Items/Tools/Pickaxe/Prisma_Texture.png",
   "ItemLevel": 3,
   "Tool": {
     "Specs": [
@@ -149,12 +149,12 @@
         "Quantity": 18
       },
       {
-        "ItemId": "Ingredient_Bar_Onyxium",
+        "ItemId": "Ingredient_Leather_Prismic",
         "Quantity": 8
       },
       {
-        "ItemId": "Ingredient_Leather_Prismic",
-        "Quantity": 8
+        "ItemId": "Rock_Gem_Emerald",
+        "Quantity": 1
       }
     ],
     "BenchRequirement": [
