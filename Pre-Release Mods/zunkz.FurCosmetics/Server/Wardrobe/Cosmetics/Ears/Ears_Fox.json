@@ -1,0 +1,29 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Fox Ears"
+    }
+  },
+  "Appearance": {
+    "Model": "Characters/Custom/Ears/Fox_Ears.blockymodel",
+    "TextureConfig": {
+      "Type": "Gradient",
+      "GrayscaleTexture": "Characters/Ears/Fox_Ears.png",
+      "GradientSet": "Hair"
+    }
+  },
+  "CosmeticSlot": "Fursuit_Ears",
+  "Icon": "Icons/Wardrobe/CosmeticsGenerated/Ears_Fox.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -84
+    ]
+  }
+}

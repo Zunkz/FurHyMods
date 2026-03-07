@@ -1,0 +1,12 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "client.myAvatar.tabs.Eyebrows"
+    }
+  },
+  "CosmeticType": "Eyebrows",
+  "Category": "Head",
+  "Icon": "Icons/Wardrobe/Slots/Eyebrows.png",
+  "SelectedIcon": "Icons/Wardrobe/Slots/EyebrowsSelected.png",
+  "Order": 1
+}

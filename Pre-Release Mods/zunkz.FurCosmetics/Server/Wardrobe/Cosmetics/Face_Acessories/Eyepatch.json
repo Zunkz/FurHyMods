@@ -1,0 +1,29 @@
+{
+  "CosmeticSlot": "FaceAccessory",
+  "Appearance": {
+    "Model": "Cosmetics/Face_Accessories/EyePatch.blockymodel",
+    "TextureConfig": {
+      "Type": "Static",
+      "Texture": "Cosmetics/Face_Accessories/EyePatch_Texture.png"
+    }
+  },
+  "Properties": {
+    "Translation": {
+      "Name": "Eyepatch",
+      "Description": ""
+    }
+  },
+  "Icon": "Icons/Wardrobe/CosmeticsGenerated/Eyepatch.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      1
+    ]
+  }
+}

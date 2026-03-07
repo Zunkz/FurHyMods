@@ -1,0 +1,12 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Body"
+    },
+    "Visibility": "Always"
+  },
+  "Category": "Fursuit",
+  "Icon": "Icons/Wardrobe/Slots/BodyCharacteristic@2x.png",
+  "SelectedIcon": "Icons/Wardrobe/Slots/BodyCharacteristicSelected@2x.png",
+  "Order": 1
+}

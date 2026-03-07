@@ -1,0 +1,29 @@
+{
+  "Appearance": {
+    "Model": "NPC/Intelligent/Furry/Body_Attachments/Tails/Wolf/Attachment_Wolf_Tail.blockymodel",
+    "TextureConfig": {
+      "Type": "Gradient",
+      "GrayscaleTexture": "NPC/Intelligent/Furry/Body_Attachments/Tails/Wolf/Attachment_Wolf_Tail.png",
+      "GradientSet": "Hair"
+    }
+  },
+  "Properties": {
+    "Translation": {
+      "Name": "Wolf Tail"
+    }
+  },
+  "CosmeticSlot": "Tails",
+  "Icon": "Icons/Wardrobe/CosmeticsGenerated/Tail_Wolf.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      45,
+      -90
+    ]
+  }
+}

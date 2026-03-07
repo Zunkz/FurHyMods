@@ -1,0 +1,12 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Paws"
+    },
+    "Visibility": "Always"
+  },
+  "Category": "Fursuit",
+  "Icon": "Icons/Wardrobe/Slots/Paws@2x.png",
+  "SelectedIcon": "Icons/Wardrobe/Slots/PawsSelected@2x.png",
+  "Order": 9
+}
