@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "Temp Block"
+    "Name": "Enchanting Table"
   },
   "Parent": "Cloth_Block_Wool_White",
   "Icon": "Icons/ItemsGenerated/Enchanting_Table.png",
@@ -36,7 +36,11 @@
       }
     ],
     "DrawType": "Model",
-    "HitboxType": "Bench_Alchemy"
+    "HitboxType": "Bench_Alchemy",
+    "InteractionHint": "This item is temporarily disabled!",
+    "Interactions": {
+      "Use": "Open_Processing_Bench"
+    }
   },
   "IconProperties": {
     "Scale": 0.4,

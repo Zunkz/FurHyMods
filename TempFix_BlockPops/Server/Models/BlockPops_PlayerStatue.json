@@ -1,0 +1,1 @@
+{"Parent":"Player","AnimationSets":{"StatueIdle":{"Animations":[{"Animation":"Characters/Animations/BlockPops/StatueIdle.blockyanim","Speed":1.0,"Looping":true,"BlendingDuration":0.0}],"NextAnimationDelay":{"Min":0.0,"Max":0.0}}}}

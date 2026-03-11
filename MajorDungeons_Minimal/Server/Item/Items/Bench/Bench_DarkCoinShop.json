@@ -1,22 +1,32 @@
 {
   "TranslationProperties": {
-    "Name": "MajorDungeons.items.Bench_DarkCoinShop.name",
-    "Description": "MajorDungeons.items.Bench_DarkCoinShop.description"
+    "Name": "Nameless Barter"
   },
   "Quality": "Eternal",
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Dark_Coin_I",
-        "Quantity": 20
+        "Quantity": 8,
+        "ItemId": "Rock_Shale_Cobble"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "Rock_Gem_Ruby"
       }
     ],
     "BenchRequirement": [
       {
-        "Id": "DarkCoinShop",
+        "Id": "Fieldcraft",
         "Type": "Crafting",
         "Categories": [
-          "DarkCoinShop_Portals"
+          "Tools"
+        ]
+      },
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
         ]
       }
     ]

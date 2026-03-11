@@ -1,0 +1,29 @@
+{
+  "TranslationProperties": {
+    "Name": "bartershop-items.AuctionStand.name",
+    "Description": "bartershop-items.AuctionStand.desc"
+  },
+  "ItemLevel": 0,
+  "Icon": "Icons/ItemsGenerated/Makapar_BarterShop_BarterStand_Icon.png",
+  "Categories": [
+    "Furniture.Crafting"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Empty",
+    "Group": "",
+    "Flags": {
+      "IsUsable": true,
+      "IsReplaceable": false
+    },
+    "Interactions": {
+      "Use": "Makapar_BarterShop_AuctionInteract"
+    },
+    "Opacity": "Transparent",
+    "FlipType": "Symmetric"
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "MaxStack": 100
+}

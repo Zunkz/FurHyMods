@@ -45,7 +45,11 @@
       ]
     },
     "VariantRotation": "NESW",
-    "ParticleColor": "#2e3742"
+    "ParticleColor": "#2e3742",
+    "Interactions": {
+      "Use": "Open_Container"
+    },
+    "InteractionHint": "This item is temporarily disabled!"
   },
   "Icon": "Icons/ItemsGenerated/Books_And_Papers_Mailbox.png",
   "ItemSoundSetId": "ISS_Blocks_Wood",

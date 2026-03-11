@@ -1,0 +1,1 @@
+{"Model":"Items/BlockPops/Finn_Plush.blockymodel","Texture":"Items/BlockPops/Finn_Plush_Texture.png","MinScale":1.0,"MaxScale":1.0,"HitBox":{"Min":{"X":-8,"Y":-8,"Z":-8},"Max":{"X":8,"Y":8,"Z":8}},"AnimationSets":{"Idle":{"Animations":[{"Animation":"Characters/Animations/BlockPops/StatueIdle.blockyanim","Speed":1.0,"Looping":true}]}}}
