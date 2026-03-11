@@ -1,0 +1,15 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "MagicPortal_VoidFlash"
+    },
+    {
+      "SpawnerId": "MagicPortal_VoidOuterCircle2",
+      "RotationOffset": {
+        "Pitch": 90.0
+      }
+    }
+  ],
+  "CullDistance": 50.0,
+  "IsImportant": true
+}

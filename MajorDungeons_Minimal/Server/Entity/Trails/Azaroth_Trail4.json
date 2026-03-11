@@ -1,0 +1,27 @@
+{
+  "TexturePath": "Trails/Daggers_Dash.png",
+  "LifeSpan": 5,
+  "Roll": 90,
+  "Start": {
+    "Color": "rgba(#400712, 0.71)",
+    "Width": 1.3
+  },
+  "End": {
+    "Color": "rgba(#450119, 0.522)",
+    "Width": 0.5
+  },
+  "LightInfluence": 1.0,
+  "Smooth": true,
+  "RenderMode": "BlendLinear",
+  "Animation": {
+    "FrameSize": {
+      "X": 256,
+      "Y": 96
+    },
+    "FrameLifeSpan": 2,
+    "FrameRange": {
+      "Max": 2,
+      "Min": 0
+    }
+  }
+}
