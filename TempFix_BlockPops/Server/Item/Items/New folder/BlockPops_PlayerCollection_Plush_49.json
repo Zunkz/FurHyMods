@@ -1,0 +1,55 @@
+{
+  "TranslationProperties": {
+    "Name": "gachapon.items.BlockPops_PlayerCollection_Plush_0.name",
+    "Description": "gachapon.items.BlockPops_PlayerCollection_Plush_0.description"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 64,
+  "Icon": "Icons/ItemsGenerated/Player_Plush_Icon.png",
+  "PlayerAnimationsId": "Block",
+  "Scale": 1.0,
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Miscellaneous/Player_Plush.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Miscellaneous/Player_Plush_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelScale": 1.0,
+    "Opacity": "Solid",
+    "RequiresAlphaBlending": false,
+    "Group": "Cloth",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Dust",
+    "BlockSoundSetId": "Plushie",
+    "HitboxType": "Plant_Full",
+    "VariantRotation": "NESW"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Bricks"
+    }
+  ],
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "IconProperties": {
+    "Scale": 0.35,
+    "Rotation": [
+      22.5,
+      45,
+      0
+    ],
+    "Translation": [
+      0,
+      0
+    ]
+  },
+  "Quality": "BlockPops_PoolItem"
+}

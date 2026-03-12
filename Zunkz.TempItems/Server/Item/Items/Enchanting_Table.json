@@ -1,0 +1,57 @@
+{
+  "TranslationProperties": {
+    "Name": "Enchanting Table"
+  },
+  "Parent": "Cloth_Block_Wool_White",
+  "Icon": "Icons/ItemsGenerated/Enchanting_Table.png",
+  "ItemLevel": 0,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_Pink",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Plant_Petals_White",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Textiles"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "ParticleColor": "#444444",
+    "CustomModel": "Blocks/Benches/Enchanting_Table.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Enchanting_Table_Texture.png"
+      }
+    ],
+    "DrawType": "Model",
+    "HitboxType": "Bench_Alchemy",
+    "InteractionHint": "This item is temporarily disabled!",
+    "Interactions": {
+      "Use": "Open_Processing_Bench"
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      12,
+      -13.5
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "TranslationProperties": {
+    "Name": "Gothic Fence 2"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "MajorDungeonsCategory.MapDesign"
+  ],
+  "Set": "Furniture_Tavern",
+  "Icon": "Icons/ItemsGenerated/Furniture_Gothic_Fence_02.png",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Window",
+    "CustomModel": "Blocks/Decorative_Sets/Gothic/Fence_02.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/Gothic/Fence_02_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Group": "Wood",
+    "HitboxType": "Window",
+    "Material": "Solid",
+    "ParticleColor": "#543022",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Window"
+        }
+      ],
+      "East": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Window"
+        }
+      ],
+      "West": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Window"
+        }
+      ],
+      "Down": [
+        {
+          "FaceType": "Window"
+        }
+      ]
+    },
+    "VariantRotation": "Wall"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

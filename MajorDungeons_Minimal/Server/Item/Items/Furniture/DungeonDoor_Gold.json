@@ -1,0 +1,89 @@
+{
+  "Parent": "Template_DungeonDoor",
+  "TranslationProperties": {
+    "Name": "MajorDungeons.items.Furniture_BloodCastleDoors_Gold.name"
+  },
+  "Recipe": {
+    "TimeSeconds": 1,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 20
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "DarkCoinShop",
+        "Type": "Crafting",
+        "Categories": [
+          "DarkCoinShop_Artifacts"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "CustomModel": "Blocks/Decorative_Sets/MJ_Door_Medium.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/MJ_Door_Medium_Gold_Texture.png"
+      }
+    ],
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "HitboxType": "Door_Medium_Big",
+    "ParticleColor": "#ffb932",
+    "Particles": [
+      {
+        "SystemId": "Block_Gem_Sparks",
+        "Color": "#ffce76"
+      }
+    ],
+    "Material": "Solid",
+    "State": {
+      "Definitions": {
+        "CloseDoorIn": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_In.blockyanim"
+        },
+        "CloseDoorOut": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_Out.blockyanim"
+        },
+        "DoorBlocked": {},
+        "OpenDoorIn": {
+          "HitboxType": "Door_Medium_Big_Open_In",
+          "InteractionHitboxType": "Door_Medium_Open_In_Interaction",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_In.blockyanim"
+        },
+        "OpenDoorOut": {
+          "HitboxType": "Door_Medium_Big_Open_Out",
+          "InteractionHitboxType": "Door_Medium_Open_Out_Interaction",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_Out.blockyanim"
+        }
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Metal",
+    "IsDoor": true,
+    "Flags": {
+      "IsUsable": true
+    },
+    "Interactions": {
+      "Use": "Door"
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/Furniture_BloodCastleDoors_Gold.png",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Categories": [
+    "MajorDungeonsCategory.MapDesign"
+  ]
+}

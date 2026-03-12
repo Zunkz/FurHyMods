@@ -1,0 +1,93 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Noobanidus_Lootr_LootChest.name",
+    "Description": "items.Noobanidus_Lootr_LootChest.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "Set": "Furniture_Adventure",
+  "Icon": "Icons/ItemsGenerated/Noobanidus_Lootr_LootChest.png",
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "CustomModel": "Blocks/Lootr/Noobanidus_Lootr_LootChest.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Lootr/Noobanidus_Lootr_LootChest_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": true
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "Quantity": 0
+      }
+    },
+    "HitboxType": "Full",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#7a3d27",
+    "State": {
+      "Id": "Noobanidus_Lootr_LootChest",
+      "Capacity": 1,
+      "Definitions": {
+        "CloseWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Wooden_Close",
+          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Close.blockyanim"
+        },
+        "OpenWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Wooden_Open",
+          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Open.blockyanim"
+        }
+      }
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "InteractionHint": "This item is currently disabled!",
+    "BlockEntity": {
+      "Components": {
+        "ItemContainerBlock": {
+          "Capacity": 36
+        }
+      }
+    },
+    "Interactions": {
+      "Use": "Noobanidus_Lootr_OpenLootContainer"
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Dungeon"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.55,
+    "Translation": [
+      0,
+      -15
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "ItemLevel": 18,
+  "MaxStack": 10
+}

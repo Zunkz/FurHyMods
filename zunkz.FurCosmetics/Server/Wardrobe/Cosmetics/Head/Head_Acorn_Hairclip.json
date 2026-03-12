@@ -1,0 +1,28 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Acorn Hairclip"
+    }
+  },
+  "Appearance": {
+    "Model": "Cosmetics/Head/AcornHairclip.blockymodel",
+    "TextureConfig": {
+      "Type": "Static",
+      "Texture": "Cosmetics/Head/AcornAccessories_Texture.png"
+    }
+  },
+  "CosmeticSlot": "HeadAccessory",
+  "Icon": "Icons/Wardrobe/CosmeticsGenerated/Head_Acorn_Hairclip.png",
+  "IconProperties": {
+    "Scale": 1.3,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -17,
+      -16
+    ]
+  }
+}

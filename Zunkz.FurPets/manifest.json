@@ -1,0 +1,21 @@
+{
+  "Group": "Zunkz",
+  "Name": "FurPets",
+  "Version": "1.0.0",
+  "Description": "Furrest Assets",
+  "Authors": [
+    {
+      "Name": "Zunkz",
+      "Email": "",
+      "Url": "https://furrest.net"
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "2026.03.05-9fdc5985d",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

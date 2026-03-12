@@ -1,0 +1,12 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Ears"
+    },
+    "Visibility": "Always"
+  },
+  "Category": "Fursuit",
+  "Icon": "Icons/Wardrobe/Slots/EarAccessory@2x.png",
+  "SelectedIcon": "Icons/Wardrobe/Slots/EarAccessorySelected@2x.png",
+  "Order": 2
+}

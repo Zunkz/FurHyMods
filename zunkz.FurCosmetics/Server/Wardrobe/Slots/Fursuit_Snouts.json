@@ -1,0 +1,12 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Snout"
+    },
+    "Visibility": "Always"
+  },
+  "Category": "Fursuit",
+  "Icon": "Icons/Wardrobe/Slots/Mouth@2x.png",
+  "SelectedIcon": "Icons/Wardrobe/Slots/MouthSelected@2x.png",
+  "Order": 4
+}

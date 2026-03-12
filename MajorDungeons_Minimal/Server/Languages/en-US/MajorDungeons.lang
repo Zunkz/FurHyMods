@@ -1,0 +1,131 @@
+items.Ingredient_Common_Card_Scraps.name = Common Card Scraps
+items.Ingredient_Legendary_Card_Scraps.name = Legendary Card Scraps
+items.Ingredient_Ultra_Card_Scraps.name = Ultra Card Scraps
+
+items.PortalKey_MJ_D01.name = Fragment: Dungeon of Fear I
+items.PortalKey_MJ_D01.description = <msg key="server.items.PortalKey.description"/>\n\n<i>A strange shard that holds knowledge of the location of <color is="#e81634">Baal's Kingdom.</color> This particular one leads to its entrance - <color is="#e81634">The Main Gates.</color> Only here can one find the shard that will allow one to proceed further.</i>\n\nAdded by MAJOR DUNGEONS.
+
+items.PortalKey_MJ_D02.name = Fragment: Dungeon of Fear II
+items.PortalKey_MJ_D02.description =  <msg key="server.items.PortalKey.description"/>\n\n<i>A strange shard that holds knowledge of the location of <color is="#e81634">Baal's Kingdom.</color> This particular one leads to <color is="#e81634">The Blood Castle</color>, the lair of an ancient dynasty of vampires sworn to protect their leader, <color is="#e81634">Baal</color>.</i>\n\nAdded by MAJOR DUNGEONS.
+
+items.PortalKey_MJ_D03.name = Fragment: Dungeon of Fear III (WIP)
+items.PortalKey_MJ_D03.description = <color is="#e5b81c">This Portal is in development.</color>
+
+items.PortalKey_MJ_D04.name = Fragment: Dungeon of Fear IV (WIP)
+items.PortalKey_MJ_D04.description = <color is="#e5b81c">This Portal is in development.</color>
+
+items.Technical.description = <color is="#e5b81c">This item is not for use.</color>
+
+items.Weapon_Longsword_Azaroth.name = Azaroth Vampire Longsword 
+items.Weapon_Longsword_Azaroth.description = • Attack: 40\n• Charged: 190
+
+items.Weapon_Lighter_Sword_Red.name = Hellfire
+items.Weapon_Lighter_Sword_Red.description =This weapon is a hybrid of a sword and a giant lighter.
+
+items.Weapon_Lighter_Sword_VampireKiller.name = Van Helsing
+items.Weapon_Lighter_Sword_VampireKiller.description =A silver sword with an infernal engine.
+
+items.Painting.name = Old Castle Painting
+items.Painting.description = <color is="#e5b81c">This item is in development.</color>
+
+items.Bench_DarkCoinShop.name = The Nameless God's Barter
+items.Bench_DarkCoinShop.description = The Nameless God's Barter
+
+items.MJ_Paint_Azaroth.name = Painting "Azaroth"
+items.MJ_Paint_Azaroth.description = "Azaroth"
+
+items.Coin_Dark.name = Dark Coin I
+items.Coin_Dark.description = A coin with a skull engraved into it.
+
+items.Furniture_Torch_Red.name = Red Torch
+items.Deco_Lantern_Red.name = Red Lantern
+
+items.Furniture_BloodCastleDoors.name = The Blood Castle Doors
+items.Furniture_BloodCastleDoors_Locked.name = The Blood Castle Doors (Locked)
+items.Furniture_BloodCastleDoors_Gold.name = The Blood Castle Doors (Gold)
+
+items.Weapon_Scythe_Katherina.name = Bloodbath
+items.Weapon_Scythe_Katherina.description = • Attack: 52\n• Charged: 121
+
+items.Statue_Azaroth_01.name = Azaroth Main Gate Guard
+items.Statue_Azaroth_01.description = Azaroth is the evil spirit of a long-dead knight who succumbed to vice and traded honor and dignity for eternal life. He guards the main entrance to the ancient Kingdom of Baal.
+
+items.DungeonKey_01.name = Dungeon Key
+items.DungeonKey_01.description = Dungeon Key Description Placeholder.
+
+items.DungeonKey_Gold.name = Dungeon Gold Key
+items.DungeonKey_Gold.description = This key can open mysterious locked golden doors.
+
+items.DungeonKey_D01_Exit.name = Dungeon Exit Key
+items.DungeonKey_D01_Exit.description = Dungeon of Fear 1 Exit Key. Without this key, you cannot collect the final dungeon rewards.
+
+items.DungeonKey_D02_Exit.name = Dungeon Exit Key
+items.DungeonKey_D02_Exit.description = Dungeon of Fear 2 Exit Key. Without this key, you cannot collect the final dungeon rewards.
+
+portals.MJ_D01=Dungeon of Fear I
+portals.MJ_D01.description=This ancient shard holds knowledge of a mysterious place. It appears to be just one of several. To unlock all secrets of this terrifying place, they must all be found. But where to look?\n\
+\n\
+<color is="#e81634"><b>Warning: The portal system is still very rough and under development. You may encounter various bugs that are not related to the mod itself, but to the game itself.</b></color>\n\
+\n\
+This instance is added by <b>MAJOR DUNGEONS.</b>
+portals.MJ_D01.tip1=<color is="#e81634"><b>Minimum equipment: Iron</b></color>
+portals.MJ_D01.tip2=<color is="#e81634">Recommended number of players: 1</color>
+portals.MJ_D01.tip3=<color is="#e81634">Don't forget the health potions.</color>
+
+portals.MJ_D02=Dungeon of Fear II
+portals.MJ_D02.description=This ancient shard holds knowledge of a mysterious place. It appears to be just one of several. To unlock all secrets of this terrifying place, they must all be found. But where to look?\n\
+\n\
+<color is="#e81634"><b>Warning: The portal system is still very rough and under development. You may encounter various bugs that are not related to the mod itself, but to the game itself.</b></color>\n\
+\n\
+This instance is added by <b>MAJOR DUNGEONS.</b>
+portals.MJ_D02.tip1=<color is="#e81634"><b>Minimum equipment: Cobalt</b></color>
+portals.MJ_D02.tip2=<color is="#e81634">Recommended number of players: 1-2</color>
+portals.MJ_D02.tip3=<color is="#e81634">Don't forget the health potions.</color>
+
+portals.MJ_D03=Dungeon of Fear III
+portals.MJ_D03.description=This ancient shard holds knowledge of a mysterious place. It appears to be just one of several. To unlock all secrets of this terrifying place, they must all be found. But where to look?\n\
+\n\
+<color is="#e81634"><b>Warning: The portal system is still very rough and under development. You may encounter various bugs that are not related to the mod itself, but to the game itself.</b></color>\n\
+\n\
+This instance is added by <b>MAJOR DUNGEONS.</b>
+portals.MJ_D03.tip1=<color is="#e81634"><b>Minimum equipment: Iron</b></color>
+portals.MJ_D03.tip2=<color is="#e81634">Recommended number of players: 1-2</color>
+portals.MJ_D03.tip3=<color is="#e81634">Don't forget the health potions.</color>
+
+portals.MJ_D04=Dungeon of Fear IV
+portals.MJ_D04.description=This ancient shard holds knowledge of a mysterious place. It appears to be just one of several. To unlock all secrets of this terrifying place, they must all be found. But where to look?\n\
+\n\
+<color is="#e81634"><b>Warning: The portal system is still very rough and under development. You may encounter various bugs that are not related to the mod itself, but to the game itself.</b></color>\n\
+\n\
+This instance is added by <b>MAJOR DUNGEONS.</b>
+portals.MJ_D04.tip1=<color is="#e81634"><b>Minimum equipment: Iron</b></color>
+portals.MJ_D04.tip2=<color is="#e81634">Recommended number of players: 1-2</color>
+portals.MJ_D04.tip3=<color is="#e81634">Don't forget the health potions.</color>
+
+items.PortalKey_MJ_Test.name = Chest Test
+items.PortalKey_MJ_Test.description = Not for Use
+
+npcRoles.Shadow_Knight_Boss.name = Azaroth Main Gate Guard
+npcRoles.Shadow_Knight_Boss.description = Azaroth is the evil spirit of a long-dead knight who succumbed to vice and traded honor and dignity for eternal life. He guards the main entrance to the ancient Kingdom of Baal.
+
+npcRoles.Construct_Ancient_Dark_Titan.name = Dark Titan
+
+general.qualities.Eternal = Eternal
+
+ui.category.Portals = Portals
+ui.category.Weapons = Weapons
+ui.category.MapDesign = Map Design
+ui.category.DevilCards = Devil Cards
+ui.category.Other = Other
+ui.category.Technical = Technical (Not for use)
+ui.category.DarkCoinShop.weapons = Weapons
+ui.category.DarkCoinShop.armor = Armor (Soon)
+ui.category.DarkCoinShop.artifacts = Artifacts
+ui.category.DarkCoinShop.portals = Portals
+ui.category.DarkCoinShop.dungeonkeys = Dungeon Keys
+ui.category.DarkCoinShop.devilcards = Devil Cards
+
+ui.notification.Block_Locked.title = Locked
+ui.notification.Block_Locked.description = Obtain and use the required key
+
+barter.Devil_Merchant.title = Devil Card Trader

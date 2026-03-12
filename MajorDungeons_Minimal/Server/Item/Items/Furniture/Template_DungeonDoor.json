@@ -1,0 +1,85 @@
+{
+  "TranslationProperties": {
+    "Name": "MajorDungeons.items.Furniture_BloodCastleDoors.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "MajorDungeonsCategory.Technical"
+  ],
+  "Set": "Furniture_Human_Ruins",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "IconProperties": {
+    "Scale": 0.47,
+    "Translation": [
+      -22.8,
+      -100.2
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "CustomModel": "Blocks/Decorative_Sets/MJ_Door_Medium.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/MJ_Door_Medium_Texture.png"
+      }
+    ],
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "HitboxType": "Door_Medium_Big",
+    "Material": "Solid",
+    "State": {
+      "Definitions": {
+        "CloseDoorIn": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_In.blockyanim"
+        },
+        "CloseDoorOut": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_Out.blockyanim"
+        },
+        "DoorBlocked": {},
+        "OpenDoorIn": {
+          "HitboxType": "Door_Medium_Big_Open_In",
+          "InteractionHitboxType": "Door_Medium_Open_In_Interaction",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_In.blockyanim"
+        },
+        "OpenDoorOut": {
+          "HitboxType": "Door_Medium_Big_Open_Out",
+          "InteractionHitboxType": "Door_Medium_Open_Out_Interaction",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_Out.blockyanim"
+        }
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Stone",
+    "IsDoor": true,
+    "Interactions": {
+      "Use": "Door"
+    },
+    "ParticleColor": "#474f4c"
+  },
+  "Scale": 0.367,
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Human"
+    ]
+  },
+  "Quality": "Technical",
+  "$Comment": "",
+  "Icon": "Icons/ItemsGenerated/Furniture_BloodCastleDoors.png",
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}
+

@@ -1,0 +1,183 @@
+{
+  "TranslationProperties": {
+    "Name": "furium.items.furhatchet.name",
+    "Description": "furrest.items.furhatchet.desc"
+  },
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      30,
+      270,
+      0
+    ],
+    "Translation": [
+      25,
+      -32
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/FurHatchet.png",
+  "Scale": 1,
+  "Tags": {
+    "Type": [
+      "Tool"
+    ]
+  },
+  "DropOnDeath": false,
+  "Quality": "Furrest_OldItem",
+  "UsePlayerAnimations": true,
+  "Model": "Items/Tools/Hatchet/Mithril.blockymodel",
+  "Texture": "Resources/Items/Tools/furaxe.png",
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Categories": [
+    "FurrestCategory.Fur_Old"
+  ],
+  "Particles": [
+    {
+      "SystemId": "Block_Run_Crystal",
+      "Color": "#8000ff",
+      "PositionOffset": {
+        "Y": 0.35,
+        "Z": -0.2
+      },
+      "TargetEntityPart": "PrimaryItem",
+      "RotationOffset": {
+        "Yaw": 0,
+        "Pitch": 90
+      },
+      "Scale": 0.8
+    }
+  ],
+  "PlayerAnimationsId": "Hatchet",
+  "Utility": {
+    "Compatible": true
+  },
+  "Tool": {
+    "Specs": [
+      {
+        "Power": 1,
+        "GatherType": "SoftBlocks"
+      },
+      {
+        "Power": 0.05,
+        "GatherType": "Soils"
+      },
+      {
+        "Power": 0.99,
+        "GatherType": "Woods"
+      },
+      {
+        "Power": 0.05,
+        "GatherType": "Rocks"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Benches"
+      },
+      {
+        "Power": 0.017,
+        "GatherType": "VolcanicRocks"
+      },
+      {
+        "Power": 0.046,
+        "GatherType": "OreCopper"
+      },
+      {
+        "Power": 0.046,
+        "GatherType": "OreIron"
+      },
+      {
+        "Power": 0.046,
+        "GatherType": "OreSilver"
+      },
+      {
+        "Power": 0.046,
+        "GatherType": "OreGold"
+      },
+      {
+        "Power": 0.046,
+        "GatherType": "OreThorium"
+      },
+      {
+        "Power": 0.046,
+        "GatherType": "OreCobalt"
+      },
+      {
+        "Power": 0.042,
+        "GatherType": "OreAdamantite"
+      },
+      {
+        "Power": 0.036,
+        "GatherType": "OreMithril"
+      }
+    ],
+    "DurabilityLossBlockTypes": [
+      {
+        "BlockSets": [
+          "Stone",
+          "Rock",
+          "Ores",
+          "Soil"
+        ],
+        "DurabilityLossOnHit": 0.25
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": "Hatchet_Attack"
+  },
+  "MaxDurability": 500,
+  "DurabilityLossOnHit": 0.1,
+  "InteractionVars": {
+    "Hatchet_Chop_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Hatchet_Chop_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Tool_T1_Swing",
+            "LocalSoundEventId": "SFX_Hatchet_T1_Swing_RL_Local"
+          }
+        }
+      ]
+    },
+    "Hatchet_Chop_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Hatchet_Chop_Damage",
+          "DamageCalculator": {
+            "Type": "Dps",
+            "BaseDamage": {
+              "Physical": 5
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Light_Melee_T1_Impact"
+          }
+        }
+      ]
+    }
+  },
+  "Set": "Tool_Furium",
+  "ItemSoundSetId": "ISS_Weapons_Wood",
+  "Recipe": {
+    "TimeSeconds": 5,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Furium",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Leather_Storm",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "FurBench",
+        "Type": "Crafting",
+        "Categories": [
+          "TODO"
+        ]
+      }
+    ]
+  }
+}

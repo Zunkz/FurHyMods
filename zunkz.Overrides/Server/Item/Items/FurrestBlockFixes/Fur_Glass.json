@@ -1,0 +1,67 @@
+{
+  "TranslationProperties": {
+    "Name": "FurGlass"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Mcw_Windows_Clean_Glass_Block.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Glass",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Glass",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Glass",
+    "ParticleColor": "#d4ece7",
+    "BlockSoundSetId": "Glass",
+    "Opacity": "Solid",
+    "RequiresAlphaBlending": false,
+    "CustomModel": "Blocks/Mcw_Windows/Glass/Glass.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Mcw_Windows/Glass/Clean_Glass.png",
+        "Weight": 1
+      }
+    ],
+    "IsDoor": false
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Bricks"
+    },
+    {
+      "Id": "Rock_Calcite_Brick"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Calcite"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -14
+    ]
+  },
+  "Quality": "Furrest"
+}

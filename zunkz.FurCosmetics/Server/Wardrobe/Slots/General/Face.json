@@ -1,0 +1,12 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "client.myAvatar.tabs.Face"
+    }
+  },
+  "CosmeticType": "Face",
+  "Category": "General",
+  "Icon": "Icons/Wardrobe/Slots/Face.png",
+  "SelectedIcon": "Icons/Wardrobe/Slots/FaceSelected.png",
+  "Order": 2
+}
