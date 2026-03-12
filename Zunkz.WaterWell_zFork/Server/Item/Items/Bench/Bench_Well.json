@@ -1,0 +1,140 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Bench_Well.name",
+    "Description": "server.items.Bench_Well.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Bench_Well.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Benches/Bench_Well.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Bench_Well.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Bench_Well",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Processing",
+      "LocalOpenSoundEventId": "SFX_Water_MoveIn",
+      "LocalCloseSoundEventId": "SFX_Water_MoveOut",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Id": "Bench_Well",
+      "Input": [
+        {
+          "FilterValidIngredients": true
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "OutputSlotsCount": 8
+    },
+    "State": {
+      "Id": "processingBench",
+      "Definitions": {
+        "Processing": {
+          "Looping": true,
+          "CustomModelAnimation": "Blocks/Benches/Lumbermill_Crafting.blockyanim"
+        },
+        "ProcessCompleted": {
+          "Looping": true,
+          "CustomModelAnimation": "Blocks/Benches/Lumbermill_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Water",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#2c9af4",
+    "BlockSoundSetId": "Wood",
+    "Interactions": {
+      "Use": "Open_Processing_Bench"
+    },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {},
+        "ProcessingBenchBlock": {}
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      15,
+      45,
+      15
+    ],
+    "Translation": [
+      -1,
+      -24
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "Quantity": 8,
+        "ItemId": "Rock_Stone_Cobble"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "Wood_Softwood_Planks"
+      },
+      {
+        "ItemId": "Wood_Softwood_Beam",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Deco_Rope",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 3,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Model": "Blocks/Benches/Bench_Well.blockymodel",
+  "Container": {
+    "GlobalFilter": "AllowAll"
+  },
+  "Utility": {
+    "Usable": false
+  }
+}
