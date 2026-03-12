@@ -10,23 +10,6 @@
   ],
   "PlayerAnimationsId": "Block",
   "Set": "Glass",
-  "Recipe": {
-    "Input": [
-      {
-        "ResourceTypeId": "Sands",
-        "Quantity": 1
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "FurBench",
-        "Type": "Crafting",
-        "Categories": [
-          "FurBench_Blocks"
-        ]
-      }
-    ]
-  },
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
@@ -49,7 +32,7 @@
         "Weight": 1
       }
     ],
-    "IsDoor": true
+    "IsDoor": false
   },
   "ResourceTypes": [
     {
