@@ -1,0 +1,8 @@
+{
+    "Model": "Resources/Characters/Tails/Rat_Tail/Rat_Tail.blockymodel",
+    "Texture": "Resources/Characters/Tails/Rat_Tail/Rat_Tail.png",
+    "Icon": "Resources/Characters/Tails/Rat_Tail/Icon/Rat_Tail.png",
+    "Alternatives": {
+	"Gradient_Set": "Skin"
+    }
+}

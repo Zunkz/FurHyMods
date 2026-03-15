@@ -1,0 +1,11 @@
+{
+    "Model": "Resources/Characters/Ears/Ovis_Ears/Ovis_Ears.blockymodel",
+    "Texture": "Resources/Characters/Ears/Ovis_Ears/Ovis_Ears.png",
+    "Icon": "Resources/Characters/Ears/Ovis_Ears/Icon/Ovis_Ears.png",
+    "Alternatives": {
+	"Gradient_Set": "Hair"
+    },
+    "SlotOverrides": [
+        "Ears"
+    ]
+}

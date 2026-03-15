@@ -1,0 +1,11 @@
+{
+    "Model": "Resources/Characters/Ears/FoxEars_Big/FoxEars_Big.blockymodel",
+    "Texture": "Resources/Characters/Ears/FoxEars_Big/FoxEars_Big.png",
+    "Icon": "Resources/Characters/Ears/FoxEars_Big/Icon/FoxEars_Big.png",
+    "Alternatives": {
+	"Gradient_Set": "Hair"
+    },
+    "SlotOverrides": [
+        "Ears"
+    ]
+}

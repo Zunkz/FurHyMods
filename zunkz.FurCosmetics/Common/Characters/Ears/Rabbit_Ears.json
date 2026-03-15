@@ -1,0 +1,12 @@
+{
+    "Model": "Resources/Characters/Ears/Rabbit_Ears/Rabbit_Ears.blockymodel",
+    "Texture": "Resources/Characters/Ears/Rabbit_Ears/Rabbit_Ears.png",
+    "Icon": "Resources/Characters/Ears/Rabbit_Ears/Icon/Rabbit_Ears.png",
+    "SlotOverrides": [
+        "Ears"
+    ],
+    "Alternatives": {
+	"Gradient_Set": "Hair"
+    }
+
+}

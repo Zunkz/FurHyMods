@@ -1,0 +1,8 @@
+{
+    "Model": "Resources/Characters/Tails/Tuft_Tail/Tuft_Tail.blockymodel",
+    "Texture": "Resources/Characters/Tails/Tuft_Tail/Tuft_Tail.png",
+    "Icon": "Resources/Characters/Tails/Tuft_Tail/Icon/Tuft_Tail.png",
+    "Alternatives": {
+        "Gradient_Set": "Hair"
+}
+}
