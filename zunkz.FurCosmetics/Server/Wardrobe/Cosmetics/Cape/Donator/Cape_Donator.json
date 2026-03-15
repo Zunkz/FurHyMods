@@ -1,0 +1,52 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Donator"
+    },
+    "Visibility": "Permission",
+    "PermissionNode": "cosmetic.dono1"
+  },
+  "Appearance": {
+    "Type": "Variant",
+    "Variants": {
+      "Default": {
+        "Properties": {
+          "Translation": {
+            "Name": "Default"
+          }
+        },
+        "Icon": "Icons/Wardrobe/CosmeticsGenerated/Cape_Donator.png",
+        "Model": "Cosmetics/Capes/Cape_Bannerlord.blockymodel",
+        "TextureConfig": {
+          "Texture": "Characters/Capes/Donator/Cape_Donator.png"
+        }
+      },
+      "No_Neck": {
+        "Properties": {
+          "Translation": {
+            "Name": "No Neck"
+          }
+        },
+        "Icon": "Icons/Wardrobe/CosmeticsGenerated/Cape_Donator.png",
+        "Model": "Cosmetics/Capes/Cape_Bannerlord_NoNeck.blockymodel",
+        "TextureConfig": {
+          "Texture": "Characters/Capes/Donator/Cape_Donator.png"
+        }
+      }
+    }
+  },
+  "Icon": "Icons/Wardrobe/CosmeticsGenerated/Cape_Donator.png",
+  "CosmeticSlot": "Cape",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      0,
+      220,
+      0
+    ],
+    "Translation": [
+      -8,
+      1
+    ]
+  }
+}

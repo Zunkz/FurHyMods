@@ -1,8 +1,0 @@
-{
-    "Model": "Resources/Cosmetics/Shoes/Hooves_Cloven/Hooves_Cloven.blockymodel",
-    "Texture": "Resources/Cosmetics/Shoes/Hooves_Cloven/Hooves_Cloven.png",
-    "Icon": "Resources/Cosmetics/Shoes/Hooves_Cloven/Icon/Hooves_Cloven.png",
-    "Alternatives": {
-         "Gradient_Set": "Hair"
-     }
- }

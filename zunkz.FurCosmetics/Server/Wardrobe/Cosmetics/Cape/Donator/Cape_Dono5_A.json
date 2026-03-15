@@ -1,0 +1,32 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Donator"
+    },
+    "Visibility": "Permission",
+    "PermissionNode": "cosmetic.dono5"
+  },
+  "Appearance": {
+    "Type": "Model",
+    "Model": "Cosmetics/Capes/Cape_PopStar.blockymodel",
+    "TextureConfig": {
+      "Type": "Gradient",
+      "GrayscaleTexture": "Characters/Capes/Donator/5/Cape_Dono5_A.png",
+      "GradientSet": "Colored_Cotton"
+    }
+  },
+  "Icon": "Icons/Wardrobe/CosmeticsGenerated/Cape_Dono5_A.png",
+  "CosmeticSlot": "Cape",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      0,
+      220,
+      0
+    ],
+    "Translation": [
+      -8,
+      1
+    ]
+  }
+}
