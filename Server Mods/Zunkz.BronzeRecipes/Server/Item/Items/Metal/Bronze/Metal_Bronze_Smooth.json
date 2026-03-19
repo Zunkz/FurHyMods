@@ -53,13 +53,13 @@
   "Recipe": {
     "Input": [
       {
-        "ResourceTypeId": "Metal_Bronze"
+        "ItemId": "Ingredient_Bar_Bronze"
       }
     ],
     "BenchRequirement": [
       {
-        "Id": "Builders",
-        "Type": "StructuralCrafting"
+        "Type": "StructuralCrafting",
+        "Id": "Builders"
       }
     ]
   }

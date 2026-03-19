@@ -1,42 +1,54 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Metal_Bronze_Ornate.name"
+    "Name": "server.items.Metal_Copper_Smooth.name"
   },
-  "Icon": "Icons/ItemsGenerated/Metal_Bronze_Ornate.png",
+  "Icon": "Icons/ItemsGenerated/Metal_Copper_Smooth.png",
   "Categories": [
     "Blocks.Metal"
   ],
-  "Set": "Metal_Bronze",
+  "Set": "Metal_Copper",
   "BlockType": {
     "Gathering": {
       "Breaking": {
         "GatherType": "Rocks"
       }
     },
-    "RandomRotation": "YawStep90",
     "BlockParticleSetId": "Metal",
     "Textures": [
       {
-        "All": "BlockTextures/Metal_Bronze_Ornate.png",
+        "All": "BlockTextures/Metal_Copper_Smooth.png",
         "Weight": 1
       }
     ],
     "BlockSoundSetId": "Metal",
-    "ParticleColor": "#f7b25b"
+    "ParticleColor": "#de6e37"
   },
   "Tags": {
     "Type": [
       "Metal"
     ],
     "Family": [
-      "Bronze"
+      "Copper"
     ]
   },
-  "Parent": "Rock_Gold_Brick_Ornate",
+  "Parent": "Rock_Gold_Brick_Smooth",
   "ItemSoundSetId": "ISS_Items_Metal",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Copper"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "StructuralCrafting",
+        "Id": "Builders"
+      }
+    ]
+  },
   "ResourceTypes": [
     {
-      "Id": "Metal_Bronze"
+      "Id": "Metal_Copper"
     }
   ],
   "IconProperties": {
@@ -49,19 +61,6 @@
     "Translation": [
       0,
       -13.5
-    ]
-  },
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "Ingredient_Bar_Bronze"
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Type": "StructuralCrafting",
-        "Id": "Builders"
-      }
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Metal_Bronze_Decorative.name"
+    "Name": "server.items.Metal_Copper_Decorative.name"
   },
   "ItemLevel": 10,
   "Quality": "Common",
@@ -8,7 +8,7 @@
   "Categories": [
     "Blocks.Metal"
   ],
-  "Set": "Metal_Bronze",
+  "Set": "Metal_Copper",
   "PlayerAnimationsId": "Block",
   "BlockType": {
     "Material": "Solid",
@@ -25,11 +25,11 @@
     "Textures": [
       {
         "Weight": 1,
-        "UpDown": "BlockTextures/Metal_Bronze_Smooth.png",
-        "Sides": "BlockTextures/Metal_Bronze_Decorative.png"
+        "UpDown": "BlockTextures/Metal_Copper_Smooth.png",
+        "Sides": "BlockTextures/Metal_Copper_Decorative.png"
       }
     ],
-    "ParticleColor": "#f7b25b",
+    "ParticleColor": "#de6e37",
     "BlockSoundSetId": "Metal",
     "TransitionToGroups": [
       "Stone",
@@ -61,12 +61,17 @@
       -13.5
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Metal_Bronze_Decorative.png",
+  "Icon": "Icons/ItemsGenerated/Metal_Copper_Decorative.png",
   "ItemSoundSetId": "ISS_Items_Metal",
+  "ResourceTypes": [
+    {
+      "Id": "Metal_Copper"
+    }
+  ],
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Bronze"
+        "ItemId": "Ingredient_Bar_Copper"
       }
     ],
     "BenchRequirement": [
@@ -75,10 +80,5 @@
         "Id": "Builders"
       }
     ]
-  },
-  "ResourceTypes": [
-    {
-      "Id": "Metal_Bronze"
-    }
-  ]
+  }
 }
