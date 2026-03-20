@@ -71,7 +71,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Iron"
+        "ItemId": "Metal_Iron"
       }
     ],
     "BenchRequirement": [

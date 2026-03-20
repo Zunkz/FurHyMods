@@ -69,7 +69,7 @@
   "Recipe": {
     "Input": [
       {
-        "ResourceTypeId": "Metal_Bars"
+        "ItemId": "Ingredient_Bar_Iron"
       }
     ],
     "BenchRequirement": [

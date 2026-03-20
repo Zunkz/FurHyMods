@@ -71,7 +71,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Copper"
+        "ItemId": "Metal_Copper"
       }
     ],
     "BenchRequirement": [

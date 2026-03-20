@@ -10,7 +10,7 @@
   ],
   "Input": [
     {
-      "ResourceTypeId": "Metal_Bronze"
+      "ItemId": "Metal_Bronze"
     }
   ],
   "Output": [

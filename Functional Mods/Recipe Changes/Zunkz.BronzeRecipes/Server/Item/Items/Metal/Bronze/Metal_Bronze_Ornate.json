@@ -54,7 +54,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Bronze"
+        "ItemId": "Metal_Bronze"
       }
     ],
     "BenchRequirement": [
