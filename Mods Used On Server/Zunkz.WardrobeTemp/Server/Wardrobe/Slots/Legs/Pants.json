@@ -1,0 +1,12 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "client.myAvatar.tabs.Pants"
+    }
+  },
+  "CosmeticType": "Pants",
+  "Category": "Legs",
+  "Icon": "Icons/Wardrobe/Slots/Pants.png",
+  "SelectedIcon": "Icons/Wardrobe/Slots/PantsSelected.png",
+  "Order": 0
+}

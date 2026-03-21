@@ -1,0 +1,10 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "client.myAvatar.tabs.Legs"
+    }
+  },
+  "Icon": "Icons/Wardrobe/Categories/Legs.png",
+  "SelectedIcon": "Icons/Wardrobe/Categories/LegsSelected.png",
+  "Order": 3
+}

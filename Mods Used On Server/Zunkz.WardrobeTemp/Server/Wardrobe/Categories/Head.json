@@ -1,0 +1,10 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "client.myAvatar.tabs.Head"
+    }
+  },
+  "Icon": "Icons/Wardrobe/Categories/Head.png",
+  "SelectedIcon": "Icons/Wardrobe/Categories/HeadSelected.png",
+  "Order": 0
+}
