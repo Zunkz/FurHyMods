@@ -1,1 +1,0 @@
-{"RequireNewClick":true,"Interactions":[{"Type":"Serial","Interactions":[{"Type":"BlockPopsOpenPlushCapsule"},{"Type":"ModifyInventory","AdjustHeldItemQuantity":-1}]}]}

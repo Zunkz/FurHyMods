@@ -1,0 +1,127 @@
+{
+  "TranslationProperties": {
+    "Name": "Signage Bench",
+    "Description": "server.items.Signage_Bench.description"
+  },
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "Quantity": 4,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "Quantity": 2,
+        "ResourceTypeId": "Rock"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench",
+        "RequiredTierLevel": 1
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Signage_Bench.png",
+  "Categories": [
+    "Furniture.Signs"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Bench/Signage Bench.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Bench/Signage_Bench.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Bench_Loom",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Crafting",
+      "Categories": [
+        {
+          "Id": "Furniture_Sandwich_Board",
+          "Icon": "Icons/CraftingCategories/Sandwich_Board/Sandwich_Board.png",
+          "Name": "server.benchCategories.furniture.sandwich_board"
+        },
+        {
+          "Id": "Furniture_Sign",
+          "Icon": "Icons/CraftingCategories/Signs/Sign.png",
+          "Name": "server.benchCategories.furniture.signs"
+        },
+        {
+          "Id": "Furniture_Sign_Standing",
+          "Icon": "Icons/CraftingCategories/Standing_Signs/Standing_Sign.png",
+          "Name": "server.benchCategories.furniture.standing_signs"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "Id": "Signage_Bench"
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Carpenter_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Carpenter_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#6b472f",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood",
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      8,
+      -13.5
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 7,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Texture": "Blocks/Bench/Signage_Bench.png",
+  "Model": "Blocks/Bench/Signage Bench.blockymodel"
+}

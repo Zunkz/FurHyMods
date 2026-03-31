@@ -1,0 +1,151 @@
+{
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ingredient_Tree_Sap",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 10
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "NoCube_Bench_Brewing_Cauldron",
+        "Categories": [
+          "NoCube_Bench_Brewing_Cauldron_Equipment"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "ParticleColor": "#8c5e41",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/NoCube_Keg.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Weight": 1,
+        "Texture": "Blocks/Benches/NoCube_Keg.png"
+      }
+    ],
+    "CustomModelScale": 1,
+    "HitboxType": "Bench_Campfire",
+    "Flags": {
+      "IsStackable": false,
+      "IsUsable": true
+    },
+    "Bench": {
+      "Type": "Processing",
+      "Input": [
+        {
+          "Icon": "Icons/Processing/NoCube_Wort_Slot.png"
+        }
+      ],
+      "Fuel": [
+        {
+          "ResourceTypeId": "NoCube_Brewing_Yeasts",
+          "Icon": "Icons/Processing/NoCube_Yeast_Slot.png"
+        }
+      ],
+      "ExtraOutput": {
+        "Outputs": []
+      },
+      "OutputSlotsCount": 4,
+      "Id": "NoCube_Bench_Keg",
+      "IconItem": "Bench_Campfire",
+      "Icon": "Campfire.png",
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "EndSoundEventId": "SFX_Campfire_Processing_End",
+      "FailedSoundEventId": "SFX_Campfire_Processing_Failed",
+      "TierLevels": [
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ResourceTypeId": "Wood_Trunk",
+                "Quantity": 10
+              },
+              {
+                "ResourceTypeId": "Rock",
+                "Quantity": 10
+              },
+              {
+                "ItemId": "Ingredient_Tree_Sap",
+                "Quantity": 10
+              },
+              {
+                "ItemId": "Ingredient_Bar_Iron",
+                "Quantity": 3
+              }
+            ],
+            "TimeSeconds": 1
+          },
+          "CraftingTimeReductionModifier": 0.0
+        },
+        {
+          "CraftingTimeReductionModifier": 0.3
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood",
+    "VariantRotation": "NESW",
+    "Looping": true,
+    "BlockEntity": {
+      "Components": {
+        "Components": {
+          "BenchBlock": {},
+          "ProcessingBenchBlock": {}
+        }
+      }
+    },
+    "Interactions": {
+      "Use": "Open_Processing_Bench"
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/NoCube_Bench_Keg.png",
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 10,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

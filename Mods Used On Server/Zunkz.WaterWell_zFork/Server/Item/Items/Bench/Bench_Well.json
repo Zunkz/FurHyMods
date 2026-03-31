@@ -27,19 +27,25 @@
       "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
       "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
       "Id": "Bench_Well",
+      "OutputSlotsCount": 6,
       "Input": [
         {
           "FilterValidIngredients": true
         },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
+        {
+          "FilterValidIngredients": true
+        },
+        {
+          "FilterValidIngredients": true
+        },
+        {
+          "FilterValidIngredients": true
+        },
+        {
+          "FilterValidIngredients": true
+        },
         {}
-      ],
-      "OutputSlotsCount": 8
+      ]
     },
     "State": {
       "Id": "processingBench",

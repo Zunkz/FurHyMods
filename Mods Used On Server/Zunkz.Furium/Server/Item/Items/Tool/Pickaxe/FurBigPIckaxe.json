@@ -159,28 +159,6 @@
     }
   ],
   "Scale": 1.5,
-  "Recipe": {
-    "TimeSeconds": 5,
-    "Input": [
-      {
-        "ItemId": "Ingredient_Bar_Furium",
-        "Quantity": 3
-      },
-      {
-        "ItemId": "Ingredient_Leather_Storm",
-        "Quantity": 4
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "FurBench",
-        "Type": "Crafting",
-        "Categories": [
-          "TODO"
-        ]
-      }
-    ]
-  },
   "Utility": {
     "Compatible": true
   }

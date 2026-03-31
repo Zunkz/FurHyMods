@@ -1,1 +1,0 @@
-{"Group":"BlockPops","Name":"Block Pops","Version":"1.4.1","Description":"Adds a Gachapon Machine block","Authors":[{"Name":"nebur"}],"Website":"","ServerVersion":"2026.02.17-255364b8e","Dependencies":{"Hytale:InteractionModule":"*"},"OptionalDependencies":{},"DisabledByDefault":false,"Main":"com.nebur.blockpops.impl.BlockPops","IncludesAssetPack":true}

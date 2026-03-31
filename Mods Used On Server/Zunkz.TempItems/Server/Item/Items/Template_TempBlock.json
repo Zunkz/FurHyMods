@@ -5,28 +5,6 @@
   "Parent": "Cloth_Block_Wool_White",
   "Icon": "Icons/ItemsGenerated/Template_TempBlock.png",
   "ItemLevel": 0,
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "Cloth_Block_Wool_Pink",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Plant_Petals_White",
-        "Quantity": 1
-      }
-    ],
-    "OutputQuantity": 1,
-    "BenchRequirement": [
-      {
-        "Type": "Crafting",
-        "Id": "Furniture_Bench",
-        "Categories": [
-          "Furniture_Textiles"
-        ]
-      }
-    ]
-  },
   "BlockType": {
     "Textures": [
       {

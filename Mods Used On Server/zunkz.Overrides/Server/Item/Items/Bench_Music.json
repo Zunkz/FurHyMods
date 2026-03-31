@@ -1,0 +1,128 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Bench_Music.name",
+    "Description": "items.Bench_Music.description"
+  },
+  "Recipe": {
+    "TimeSeconds": 4,
+    "Input": [
+      {
+        "Quantity": 4,
+        "ResourceTypeId": "Wood_All"
+      },
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Tree_Sap",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Bench_Music.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Bench/Bench_Music.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Bench/Bench_Music.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Bench_Loom",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Crafting",
+      "LocalOpenSoundEventId": "SFX_Bench_Music_Open",
+      "LocalCloseSoundEventId": "SFX_Bench_Music_Open",
+      "CompletedSoundEventId": "SFX_Bench_Music_Craft",
+      "FailedSoundEventId": "SFX_Furnace_Bench_Processing_Failed",
+      "Id": "Bench_Music",
+      "Categories": [
+        {
+          "Id": "Violet_Music_Music_Players",
+          "Icon": "Icons/CraftingCategories/MusicPlayers.png",
+          "Name": "benchCategories.violet_music.music_players"
+        },
+        {
+          "Id": "Violet_Music_Music_Boxes",
+          "Icon": "Icons/CraftingCategories/MusicBoxes.png",
+          "Name": "benchCategories.violet_music.music_boxes"
+        },
+        {
+          "Id": "Violet_Music_Hytale_Tracks",
+          "Icon": "Icons/CraftingCategories/MusicTracksOST.png",
+          "Name": "benchCategories.violet_music.hytale_tracks"
+        },
+        {
+          "Id": "Violet_Music_Extra_Tracks",
+          "Icon": "Icons/CraftingCategories/MusicTracks.png",
+          "Name": "benchCategories.violet_music.extra_tracks"
+        }
+      ]
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Carpenter_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#6b472f",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood",
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.35,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      11.4,
+      -19
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

@@ -1,1 +1,0 @@
-{"RequireNewClick":true,"Interactions":[{"Type":"Serial","Interactions":[{"Type":"BlockPopsConsumeGachaToken"},{"Type":"ModifyInventory","AdjustHeldItemQuantity":-1}]}]}

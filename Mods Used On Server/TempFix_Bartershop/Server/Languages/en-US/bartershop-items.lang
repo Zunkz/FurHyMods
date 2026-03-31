@@ -1,4 +1,0 @@
-BarterStand.name=Barter Shop
-BarterStand.desc=Place to set up a barter shop for trading items with other players. Right-click to configure trades (owner) or browse available trades (customers).
-AuctionStand.name=Auctioneer
-AuctionStand.desc=An invisible marker block for the auction house. Admins can spawn an auctioneer NPC that players can interact with to browse and create auctions.

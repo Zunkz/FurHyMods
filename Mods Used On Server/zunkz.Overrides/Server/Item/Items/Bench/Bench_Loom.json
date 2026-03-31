@@ -58,7 +58,12 @@
       ]
     },
     "ParticleColor": "#6b472f",
-    "BlockSoundSetId": "Wood"
+    "BlockSoundSetId": "Wood",
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    }
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
