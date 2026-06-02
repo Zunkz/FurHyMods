@@ -12,19 +12,18 @@
     "DrawType": "Cube",
     "Group": "Ice",
     "Flags": {},
-    "Textures": [
-      {
-        "All": "Resources/Blocks/Wet_Ice/Rock_Ice_Wet.png",
-        "Weight": 1
-      }
-    ],
-    "CubeShadingMode": "Flat",
-    "Opacity": "Solid",
+    "CubeShadingMode": "Standard",
+    "Opacity": "Transparent",
     "RequiresAlphaBlending": false,
-    "AmbientSoundEventId": "Music_Spawn_Event",
     "Tint": [
       "#00ff3c"
-    ]
+    ],
+    "Textures": [
+      {
+        "All": "Blocks/glass.png"
+      }
+    ],
+    "Looping": true
   },
   "ResourceTypes": [
     {
